@@ -157,7 +157,7 @@ upkeep:
   enabled_19: true
   # How much should a land pay per chunk?
   # NOTE: Final payment would be land size (chunks) * cost
-  per-chunk: 3.0
+  per-chunk: 250.0
   # Should the last claimed chunks, which the land could not pay for, be deleted?
   # Example: The land has 10 claimed chunks, but it can pay the upkeep only for 6. So the 4 last claimed chunks will be deleted.
   # This continues each upkeep cicle until no claims are left.
@@ -178,9 +178,9 @@ taxes:
   # The interval can be configured in the "economic" section.
   enabled_3: true
   # Set the minimum tax value.
-  min_2: 0
+  min_2: 250
   # Set max tax value for a single area (if a land has no sub areas then this will be the default area)
-  max_3: 10.0
+  max_3: 5000
   # Untrust a land member from the area if he couldn't pay the taxes?
   untrust-member: true
   # Announce upcoming tax payments to players.
