@@ -28,8 +28,6 @@ general:
   # NOTE: This setting requires server reload / restart.
   claim-worlds_list:
     - 'world'
-    - 'CriaLand_nether'
-    - 'CriaLand_the_end'
 
   # Default: English (en-US) - no download required.
   # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
@@ -48,9 +46,9 @@ general:
   # follow the instructions here: https://github.com/Angeschossen/General/wiki/GUI-Menus#disable-items
   first-join-items:
     # The selection tool allows them to claim.
-    selection:
-      slot_4: 1
-      amount: 1
+    #selection:
+      #slot_4: 1
+      #amount: 1
     # The info tool shows information about a claim when clicking on it.
     info:
       slot_5: 2
@@ -60,9 +58,9 @@ general:
       slot_6: 3
       amount_3: 1
     # Claim blocks claim the chunk they were placed into permanently, until the player unclaims the chunk.
-    claimblock:
-      slot_7: 4
-      amount_4: 1
+    #claimblock:
+     # slot_7: 4
+      #amount_4: 1
 
   # Force default language? This will make changes to language files impossible and will always use the default.
   # This will always replace existing strings with the default ones.
