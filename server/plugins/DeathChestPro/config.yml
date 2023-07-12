@@ -3,10 +3,10 @@ debug_messages: false
 expire_groups:
   default:
     permission: deathchestpro.expire.default
-    teleport_cost: 0
+    teleport_cost: 5000
     chest_block: CHEST
     unlock_after: -1
-    time: 60
+    time: 600
 allow_break_chests: false
 allow_killer_looting: false
 drop_items_after_expire: false
@@ -16,11 +16,11 @@ old_lava_protection: false
 void_spawning_chest: true
 auto_equip_armor: true
 clickable_message: true
-spawn_chest_on_highest_block: false
+spawn_chest_on_highest_block: true
 spawn_chest_on_pvp_kill: true
 start_timer_at_death: false
 store_experience: false
-overworld_new_height: false
+overworld_new_height: true
 store_experience_percent: 100.0
 max_player_chests: 3
 teleport_cooldown: 10
