@@ -1,0 +1,71 @@
+# Edit additional permissions
+# Permission node parameters
+# Required: Permission, Check
+Permission:
+  Send:
+    Message: true
+  Open:
+    Sign:
+      Permission: bank.open.sign
+      Check: true
+    Citizens:
+      Permission: bank.open.citizens
+      Check: true
+    Block:
+      Permission: bank.open.block
+      Check: true
+  Sign:
+    Place:
+      Permission: bank.sign.place
+      Check: true
+  Loan:
+    # Give a player the permission: bank.loan.interest.0.05 for 5% interest
+    # Lowest value will be taken from the user bank.loan.interest.0.05 & bank.loan.interest.0.01 will select 1% interest
+    Interest:
+      Permission: bank.loan.interest.
+      Check: true
+    # Give a player the permission: bank.loan.amount.1000.5 for a $1000.50 maximum loans
+    # Use main config to enable combined totals, bank.loan.amount.1000.5 & bank.loan.amount.10.5 would be a total of $1011.00
+    Amount:
+      Permission: bank.loan.amount.
+      Check: true
+  # Give a player the permission: bank.item.slots.1000 for a 1000 slots
+  # Use main config to enable combined totals, bank.item.slots.1000 & bank.item.slots.10 would be a total of 1010 slots
+  Slots:
+    Permission: bank.item.slots.
+    Check: true
+  # Give a player the permission: bank.tabs.9 for 9 item tabs
+  Tabs:
+    Permission: bank.tabs.
+    Check: true
+  Tab:
+    # Permission to rename tabs in items inventory
+    Rename:
+      Permission: bank.item.tab.rename
+      Check: true
+  Inventory:
+    Money:
+      # Permission to send money from inventory
+      Send:
+        Permission: bank.open.money.send
+        Check: true
+    Exp:
+      # Permission to send exp from inventory
+      Send:
+        Permission: bank.open.exp.send
+        Check: true
+  Items:
+    # Permission to withdraw items from bank
+    Deposit:
+      Permission: bank.items.deposit
+      Check: false
+    # Permission to withdraw items from bank
+    Withdraw:
+      Permission: bank.items.withdraw
+      Check: false
+  Admin:
+    # Extra perms for admins when opening players banks
+    Permissions:
+    - bank.item.slots.9
+    # Note this permission can't be disabled for security reasons.
+    Inventory: bank.admin.inventory.open

@@ -1,0 +1,30 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Max
+    baby: Baby
+    adult: Adult
+    spawn: '&7%type% &6Spawn Egg'
+    lorecost: '&7Cost: &6$%cost%'
+    lorechance: '&7Chance: &6%chance%%'
+  catcherinfo:
+    type: '&7Type: &6%value%'
+    health: '&7Health: &6%value%'
+    age: '&7Age: &6%value%'
+    tamed: '&6Tamed'
+    trusted: '&6Trusted'
+# Event Messages
+event:
+  general:
+    nopermission: '&cYou do not have permission to do that.'
+  catch:
+    success: '&7You successfully captured the &6%type%&7.'
+    failed: '&cYou failed to capture the &4%type%&c.'
+    notenabled: '&7You cannot capture a &6%type%&7.'
+    cantafford: '&7You need &6$%amount% &7in order to catch a &6%type%&7.'
+    notyours: '&cYou cannot catch entities tamed by others.'
+    blockedcatchingworld: '&cCatching entities in world &4%world%&c is disabled.'
+    blockedspawningworld: '&cSpawning caught entities in world &4%world%&c is disabled.'

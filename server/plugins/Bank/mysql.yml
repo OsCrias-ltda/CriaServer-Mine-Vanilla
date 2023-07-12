@@ -1,0 +1,7 @@
+SQL:
+  user: user
+  password: password
+  host: localhost
+  port: '3306'
+  database: db
+  extra: ?useUnicode=true&characterEncoding=utf-8

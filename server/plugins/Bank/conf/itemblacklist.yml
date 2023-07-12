@@ -1,0 +1,14 @@
+# Items that are blacklist are saved here
+# Use '/bank admin item blacklist' in-game
+Blacklist: []
+Blacklisted:
+  # Blacklist items that contain a name.
+  # Accepts regex, eg: '(?i)hello' will match (Hello, hello)
+  # I suggest using a website such as https://regex101.com/ to create regex's
+  Name:
+  - Example name of item
+  # Blacklist items that contain lore string.
+  # Accepts regex, eg: '(?i)hello' will match (Hello, hello)
+  # I suggest using a website such as https://regex101.com/ to create regex's
+  Lore:
+  - Example lore of item

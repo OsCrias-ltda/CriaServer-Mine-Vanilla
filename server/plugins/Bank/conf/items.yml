@@ -1,0 +1,920 @@
+# This config file handles all gui items for this plugin allowing all items to be dynamically changed
+#
+# ~Item node parameters~
+# Required: Material, Durability, Amount
+# Additional: Name, Lore, Unbreakable
+# ~Special~
+# Slot: <slot> Set the slot in the inventory, can be used in some cases to specify length, if default -1 then changing will do nothing.
+# Slots: Duplicate this item to additional slots. Integer list.
+# HeadURL: <url> / Head url from minecraft player skin, requires Item.Material to be PLAYER_HEAD or PLAYER_SKULL (Premium)"
+# HeadDB: <headdb-id> / HeadDB identifier
+# PlayerHead: <true/false> If this should be the players own head.
+# Enchant: <enchant_name>
+# CustomModelData: <integer> (1.14+ only!)
+#
+# ~Example with all~
+# Blank:
+#   Material: BLACK_STAINED_GLASS_PANE
+#   Durability: 0
+#   Amount: 1
+#   Slot: -1
+#   Name: 'Example name'
+#   Lore:
+#   - '&cExample lore'
+#   - '&aExample second lore'
+#   Unbreakable: true
+#   Slots:
+#   - 2
+#   - 3
+#   HeadURL: 'http://textures.minecraft.net/texture/1998e3668a6ca62eb75f36fa4bb7f5ecdb26b170aacd3377db53f62f188b38'
+#   HeadDB: 'burger'
+#   Enchant: 'THORNS'
+#   CustomModelData: 69
+#
+Bank:
+  Item:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    Tab:
+      # Available: <tab>, <items>
+      # .Tabs: Inventory slots to show tabs in
+      Number:
+        Material: LIGHT_BLUE_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+        Name: '&bTab <tab>'
+        Lore:
+        - '&9<items> Items'
+        Tabs:
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      # Available: <tab>
+      Locked:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+        Name: '&bTab <tab>'
+        Lore:
+        - '&cLocked'
+      # Available: <tab>, <items>
+      Current:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+        Name: '&aCurrent <tab>'
+        Lore:
+        - '&9<items> Items'
+    Blank:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: -1
+      Name: ' '
+    Scroll:
+      Up:
+        Material: BLACK_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 7
+        Name: '&bScroll Up'
+        Lore:
+        - '&aScrolls up the tab'
+      Down:
+        Material: BLACK_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 8
+        Name: '&bScroll Down'
+        Lore:
+        - '&aScrolls down the tab'
+    Add:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bAdd to this tab'
+      Lore:
+      - '&aAdd item options'
+    Remove:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bRemove from this tab'
+      Lore:
+      - '&aRemove item options'
+    Sort:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 6
+      Name: '&bSort this tab'
+      Lore:
+      - '&aSort item options'
+    # Available: <used>, <available>, <total>
+    Slots:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 1
+      Name: '&bSlots'
+      Lore:
+      - '&aUsed Slots: <used>'
+      - '&aAvailable Slots: <available>'
+      - '&aTotal Slots: <total>'
+      - '&aClick to buy more slots'
+    # Available: <tabs>
+    Tabs:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 2
+      Name: '&bTabs'
+      Lore:
+      - '&aAvailable Tabs: <tabs>'
+      - '&aClick to buy more tabs'
+    Trashcan:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&cTrashcan'
+      Lore:
+      - '&cItems are destroyed'
+    # .Start: Start slot for setting items
+    # .Width: Amount of columns to show
+    # .Rows: Amount of rows to show
+    Items:
+      Start: 9
+      Width: 9
+      Rows: 4
+    # Available: <cost>
+    Locked:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: -1
+      Name: '&cSlot locked'
+      Lore:
+      - '&aPurchase more slots to unlock.'
+      - '&aClick to unlock for $<cost>'
+    Blacklist:
+      # .Slots: amount of checks to show
+      # .Start: Start slot for showing history
+      Items:
+        Slots: 45
+        Start: 9
+      Back:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 0
+        Name: '&cBack'
+        Lore:
+        - '&cGo back'
+      Green:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+        Name: '&a<name>'
+        Lore:
+        - '&9Click to toggle'
+      Red:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+        Name: '&c<name>'
+        Lore:
+        - '&9Click to toggle'
+      Scroll:
+        Up:
+          Material: BLACK_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 7
+          Name: '&bScroll Up'
+          Lore:
+          - '&aScrolls up the tab'
+        Down:
+          Material: BLACK_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 8
+          Name: '&bScroll Down'
+          Lore:
+          - '&aScrolls down the tab'
+    Default:
+      # .Slots: amount of checks to show
+      # .Start: Start slot for showing history
+      Items:
+        Slots: 45
+        Start: 9
+      Back:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 0
+        Name: '&cBack'
+        Lore:
+        - '&cGo back'
+      Scroll:
+        Up:
+          Material: BLACK_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 7
+          Name: '&bScroll Up'
+          Lore:
+          - '&aScrolls up the tab'
+        Down:
+          Material: BLACK_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 8
+          Name: '&bScroll Down'
+          Lore:
+          - '&aScrolls down the tab'
+    Buy:
+      Back:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 0
+        Name: '&cBack'
+        Lore:
+        - '&cGo back'
+      Slot:
+        Minus:
+          Material: RED_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 3
+          Name: '&c-'
+        # Available: <slots>, <cost>
+        Buy:
+          Material: LIGHT_BLUE_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 4
+          Name: '&bBuy <slots> for $<cost>'
+        Add:
+          Material: GREEN_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 5
+          Name: '&a+'
+      Tab:
+        Back:
+          Material: RED_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 0
+          Name: '&cBack'
+          Lore:
+          - '&cGo back'
+        Minus:
+          Material: RED_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 3
+          Name: '&c-'
+        # Available: <tabs>, <cost>
+        Buy:
+          Material: LIGHT_BLUE_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 4
+          Name: '&bBuy <tabs> for $<cost>'
+        Add:
+          Material: GREEN_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 5
+          Name: '&a+'
+  Permission:
+    History:
+      # .Slots: amount of checks to show
+      # .Start: Start slot for showing history
+      List:
+        Slots: 45
+        Start: 9
+      'True':
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+      'False':
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+      Scroll:
+        Up:
+          Material: BLACK_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 7
+          Name: '&bScroll Up'
+          Lore:
+          - '&aScrolls up the tab'
+        Down:
+          Material: BLACK_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 8
+          Name: '&bScroll Down'
+          Lore:
+          - '&aScrolls down the tab'
+  Add:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    All:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&bAdd All'
+      Lore:
+      - '&aAdds all items in your whole inventory'
+    Inventory:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bAdd Inventory'
+      Lore:
+      - '&aAdds all items in your inventory'
+    Hotbar:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bAdd Hotbar'
+      Lore:
+      - '&aAdds all items in your hotbar'
+  Remove:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    All:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&bRemove All'
+      Lore:
+      - '&aRemoves all items to your whole inventory'
+    Inventory:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bRemove Inventory'
+      Lore:
+      - '&aRemoves all items to your inventory'
+    Hotbar:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bRemove Hotbar'
+      Lore:
+      - '&aRemoves all items to your hotbar'
+  Sort:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    Material:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&bSort Alphabetically By Material'
+      Lore:
+      - '&aSorts tab by the material of the items'
+    Name:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bSort Alphabetically By Name'
+      Lore:
+      - '&aSorts tab by item names'
+    Amount:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bSort By Item Amount'
+      Lore:
+      - '&aSorts tab by item amounts'
+  Main:
+    Item:
+      Material: CYAN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bItems'
+      Lore:
+      - '&aClick to view items'
+    # Available: <money>
+    Money:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&bBalance $<money>'
+      Lore:
+      - '&aClick to withdraw/deposit'
+    Pin:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 2
+      Name: '&bPin options'
+      Lore:
+      - '&aClick to set/edit your pin'
+    # Available: <exp>
+    Exp:
+      Material: YELLOW_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&b<exp> exp'
+      Lore:
+      - '&aYour current amount of exp'
+    Loans:
+      Material: LIGHT_BLUE_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 6
+      Name: '&bLoans'
+      Lore:
+      - '&aClick to take and view current loans'
+  Exp:
+    # Available: <exp>
+    Balance:
+      Material: CYAN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&b<exp> exp'
+      Lore:
+      - '&aYour current amount of exp'
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    Withdraw:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&bClick to withdraw exp'
+      Lore:
+      - '&aEnter the amount to withdraw'
+    Withdrawall:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 2
+      Name: '&bClick to withdraw all exp'
+      Lore:
+      - '&aWithdraws all exp'
+    Deposit:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bClick to deposit exp'
+      Lore:
+      - '&aEnter the amount to deposit'
+    Depositall:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 6
+      Name: '&bClick to deposit all exp'
+      Lore:
+      - '&aDeposits all exp'
+    Send:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 8
+      Name: '&bSend exp'
+      Lore:
+      - '&aSend exp to another player.'
+  Money:
+    # Available: <money>
+    Balance:
+      Material: CYAN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bBalance: $<money>'
+      Lore:
+      - '&aYour current amount of $$'
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    Withdraw:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 3
+      Name: '&bClick to withdraw money'
+      Lore:
+      - '&aEnter the amount to withdraw'
+    Withdrawall:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 2
+      Name: '&bClick to withdraw all money'
+      Lore:
+      - '&aWithdraws all money'
+    Deposit:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bClick to deposit money'
+      Lore:
+      - '&aEnter the amount to deposit'
+    Depositall:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 6
+      Name: '&bClick to deposit all money'
+      Lore:
+      - '&aDeposits all money'
+    Send:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 8
+      Name: '&bSend money'
+      Lore:
+      - '&aSend money to another player.'
+  Pin:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    Set:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&aSet Pin'
+      Lore:
+      - '&aClick to set your pin'
+    Remove:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&cRemove Pin'
+      Lore:
+      - '&cClick to remove your pin'
+    Clear:
+      Material: YELLOW_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 39
+      Name: '&aClear Pin'
+      Lore:
+      - '&aClick to clear'
+    # Each pin slot is randomized except for Zero
+    # Available: <number>
+    Number:
+      One:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 12
+        Name: '&b1'
+      Two:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 13
+        Name: '&b2'
+      Three:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 14
+        Name: '&b3'
+      Four:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 21
+        Name: '&b4'
+      Five:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 22
+        Name: '&b5'
+      Six:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 23
+        Name: '&b6'
+      Seven:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 30
+        Name: '&b7'
+      Eight:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 31
+        Name: '&b8'
+      Nine:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 32
+        Name: '&b9'
+      Zero:
+        Material: LIGHT_BLUE_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 40
+        Name: '&b0'
+    # Available: <length>
+    Progress:
+      # Finished.Slot: Starting progress slot
+      Finished:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: -1
+        Name: '&b<length>/4'
+      Slot:
+        '1':
+          Material: YELLOW_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 17
+          Name: '&b<length>/4'
+        '2':
+          Material: YELLOW_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 26
+          Name: '&b<length>/4'
+        '3':
+          Material: YELLOW_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 35
+          Name: '&b<length>/4'
+        '4':
+          Material: YELLOW_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 44
+          Name: '&b<length>/4'
+  Anvil:
+    Input:
+      Material: BLACK_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+  Loans:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'
+    View:
+      Material: GREEN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 5
+      Name: '&bView loans'
+      Lore:
+      - '&aClick to view loans'
+    Take:
+      Out:
+        Material: GREEN_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 4
+        Name: '&bTake out loan'
+        Lore:
+        - '&aClick to take out a loan'
+    Payback:
+      # Available: <total>
+      All:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 3
+        Name: '&bPay back all loans'
+        Lore:
+        - '&aTotal: <total>'
+        - '&aClick to pay back all current loans'
+  Loan:
+    # Available: <amount>, <original>, <interest>, <payback>, <deadline>, <created>
+    Info:
+      Material: CYAN_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 4
+      Name: '&bLoan: <amount>'
+      Lore:
+      - '&aOriginal: <original>'
+      - '&aInterest: <interest>'
+      - '&aPayback: <payback>'
+      - '&aDeadline: <deadline> days'
+      - '&aCreated: <created>'
+      - '&9Click to payback'
+    View:
+      Back:
+        Material: RED_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 0
+        Name: '&cBack'
+        Lore:
+        - '&cGo back'
+      Previous:
+        Material: LIGHT_BLUE_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 7
+        Name: '&bPrevious loan'
+        Lore:
+        - '&aClick to view previous loan'
+      Next:
+        Material: LIGHT_BLUE_STAINED_GLASS_PANE
+        Durability: 0
+        Amount: 1
+        Slot: 8
+        Name: '&bNext loan'
+        Lore:
+        - '&aClick to view next loan'
+    Take:
+      Out:
+        Back:
+          Material: RED_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 0
+          Name: '&cBack'
+          Lore:
+          - '&cGo back'
+        Payback:
+          Material: LIGHT_BLUE_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 3
+          Name: '&bSet payback'
+          Lore:
+          - '&aClick to set payback'
+        Amount:
+          Material: LIGHT_BLUE_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 4
+          Name: '&bSet amount'
+          Lore:
+          - '&aClick to set amount'
+        # Available: <amount>, <original>, <interest>, <payback>, <deadline>, <created>
+        Info:
+          Material: CYAN_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 7
+          Name: '&bLoan: <amount>'
+          Lore:
+          - '&aOriginal: <original>'
+          - '&aInterest: <interest>'
+          - '&aPayback: <payback>'
+          - '&aDeadline: <deadline> days'
+          - '&aCreated: <created>'
+        # All errors replace this accept button
+        Accept:
+          Material: GREEN_STAINED_GLASS_PANE
+          Durability: 0
+          Amount: 1
+          Slot: 8
+          Name: '&bAccept loan'
+          Lore:
+          - '&aTake out loan for $<amount>'
+        Error:
+          # Below minimum in config
+          Minimum:
+            Material: RED_STAINED_GLASS_PANE
+            Durability: 0
+            Amount: 1
+            Slot: -1
+            Name: '&cLoan below minimum'
+            Lore:
+            - '&cMinimum: <minimum>'
+          # Above maximum in config
+          Maximum:
+            Material: RED_STAINED_GLASS_PANE
+            Durability: 0
+            Amount: 1
+            Slot: -1
+            Name: '&cLoan above maximum'
+            Lore:
+            - '&cMaximum: <maximum>'
+          # Above max set via permissions
+          Permitted:
+            Material: RED_STAINED_GLASS_PANE
+            Durability: 0
+            Amount: 1
+            Slot: -1
+            Name: '&cLoan above permitted'
+            Lore:
+            - '&cPermitted: <permitted>'
+          # Above is less than 0
+          Zero:
+            Material: RED_STAINED_GLASS_PANE
+            Durability: 0
+            Amount: 1
+            Slot: -1
+            Name: '&cLoan set an amount'
+            Lore:
+            - '&cSet an amount to take out'
+          Too:
+            # Taken out too loans
+            Many:
+              Material: RED_STAINED_GLASS_PANE
+              Durability: 0
+              Amount: 1
+              Slot: -1
+              Name: '&cMax loans reached'
+              Lore:
+              - '&cYou have already taken out the maximum amount of loans'
+  Trashcan:
+    Back:
+      Material: RED_STAINED_GLASS_PANE
+      Durability: 0
+      Amount: 1
+      Slot: 0
+      Name: '&cBack'
+      Lore:
+      - '&cGo back'

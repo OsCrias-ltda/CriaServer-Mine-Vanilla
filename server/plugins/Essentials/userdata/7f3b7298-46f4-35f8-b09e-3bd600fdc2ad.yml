@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.75.59.26
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689114674611
+  login: 1689114570767
+money: '0'
+last-account-name: GoodUssoup
+logoutlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: -52.618271863902045
+  y: 112.0
+  z: 59.295454209031845
+  yaw: -127.05096435546875
+  pitch: 14.399591445922852

@@ -1,0 +1,188 @@
+# Edit messages from the plugin here.
+# Use <nl> for new lines
+Bank:
+  Admin:
+    Block:
+      # Available: <block>
+      Set: '&aBlock <block> set as bank'
+      # Available: <block>
+      Not: '&aBlock <block> is not a bank'
+      # Available: <block>
+      Remove: '&aBlock <block> removed as bank'
+    Debug:
+      Item:
+        # Available: <url>
+        Url: '&aUploaded item info to <url>, click to open/copy'
+        Error: '&cUnable to upload item, please view console logs for errors'
+        None: '&cPlease hold an item in your hand'
+    Slots:
+      # Available: <player>, <new_amount>
+      Add: Added <amount> slots to <player>, new amount <new_amount>
+      # Available: <player>
+      Set: Set <player> slots to <amount>
+    # Available: <version>
+    Reload: Bank v<version> reloaded.
+    # Available: <player>
+    Loading: '&7Offline loading <player>, do ''/bank admin save'' when complete'
+    Saved: '&aSaved opened player.'
+    Inventory:
+      Prefix: '&cAdmin'
+    Permission:
+      # Available: <player>
+      Updated: '&aUpdated permissions for <player>'
+Command:
+  Title:
+    # Available: <base>, <args>
+    Format: '&7[&a<base>&b<args>&7]'
+  Commands:
+    # Available: <base>, <args>
+    Format: '&f/&7<base>&b<args>'
+  Message:
+    # Available: <message>
+    Format: '&7[&aBank&7] <message>'
+  Unknown:
+    # Available: <base>, <args>
+    Format: '&cUnknown command /<base> <args>'
+    # Available: <player>
+    Player: '&cUnknown player <player>'
+  'No':
+    Permission: '&cYou do not have the permission to perform this command.'
+  Unable:
+    # Available: <value>
+    Parse: '&cUnable to parse <value>.'
+Anvil:
+  Item:
+    Tab:
+      Rename: Rename Tab <i>
+  Exp:
+    Wtihdraw: Withdraw
+    Deposit: Deposit
+    Send:
+      Name: Enter Player Name
+      Amount: Enter Amount
+  Money:
+    Wtihdraw: Withdraw
+    Deposit: Deposit
+    Send:
+      Name: Enter Player Name
+      Amount: Enter Amount
+  Loan:
+    Take:
+      Out: Amount
+    Payback:
+      Set: Payback
+      Amount: Payback
+Message:
+  # Available: <message>
+  Format: '&7[&aBank&7] <message>'
+  Money:
+    # Available: <money>, <tax>
+    Deposit: '&aYou have deposited $<money> to the bank.'
+    # Available: <money>, <tax>
+    Withdraw: '&aYou have withdrawn $<money> from the bank.'
+    # Available: <money>
+    Balance: '&aYou have $<money> in the bank.'
+    Not:
+      # Available: <money>
+      Enough: '&cYou do not have enough money to do that, your balance is $<money>.'
+    # Available: <money>, <name>
+    Sent: '&aSuccessfully sent $<money> to <name>'
+    # Available: <money>, <name>
+    Received: '&aReceived $<money> from <name>'
+    Interest:
+      # Available: <amount>
+      Gained: '&aYou gained $<amount> in interest'
+  Exp:
+    # Available: <exp>, <tax>
+    Deposit: '&aYou have deposited <exp> exp to the bank.'
+    # Available: <exp>, <tax>
+    Withdraw: '&aYou have withdrawn <exp> exp from the bank.'
+    # Available: <exp>
+    Balance: '&aYou have <exp> exp in the bank.'
+    Not:
+      Enough: '&cYou do not have enough exp to do that.'
+    # Available: <exp>, <name>
+    Sent: '&aSuccessfully sent <exp> to <name>'
+    # Available: <exp>, <name>
+    Received: '&aReceived <exp> from <name>'
+    Interest:
+      # Available: <amount>
+      Gained: '&aYou gained <amount> in exp interest'
+  Permission:
+    # Available: <permission>
+    Requirement: '&cYou require permission: <permission> to do that.'
+  Loans:
+    Payback:
+      # Available: <amount>
+      Amount: '&aYou payed back $<amount> of your loans'
+    Interest:
+      # Available: <amount>
+      Gained: '&aYour loans gained $<amount> in interest'
+  Bank:
+    Locked: '&cBank locked/loading please wait'
+    Unlocked: '&aBank unlocked!'
+  Pin:
+    Enter:
+      Before: '&cYou must enter your pin before doing that.'
+  Info:
+    Border: '&a-----------------------------------------------------'
+    View:
+    - '&b Bank balance $<bank_money>'
+    - '&b Bank exp <bank_exp>, <bank_exp_level> levels'
+    - '&b Money interest in <bank_interest_money_minutes> minutes (<bank_interest_money_seconds> seconds)'
+    - '&b Exp interest in <bank_interest_exp_minutes> minutes (<bank_interest_exp_seconds> seconds)'
+  Top:
+    Money:
+      Border: '&a-----------------------------------------------------'
+      # Available: <number>, <name>, <amount>
+      Info: '&7<number>. &a<name>: &6$<amount>'
+    Exp:
+      Border: '&a-----------------------------------------------------'
+      # Available: <number>, <name>, <amount>
+      Info: '&7<number>. &a<name>: &6$<amount>'
+  World:
+    Disabled: '&cBank disabled in this world.'
+  Gamemode:
+    # Available: <gamemode>
+    Disabled: '&cBank disabled for <gamemode>.'
+Format:
+  Thousand: K
+  Million: Million
+  Billion: Billion
+  Trillion: Trillion
+  Quadrillion: Quadrillion
+  Quintillion: Quintillion
+  Sextillion: Sextillion
+  Septillion: Septillion
+  Octillion: Octillion
+  Nonillion: Nonillion
+  Decillion: Decillion
+  Undecillion: Undecillion
+  Duodecillion: Duodecillion
+  Tredecillion: Tredecillion
+  Quattuordecillion: Quattuordecillion
+  Quinquadecillion: Quinquadecillion
+  Sedecillion: Sedecillion
+  Septendecillion: Septendecillion
+  Octodecillion: Octodecillion
+  Novendecillion: Novendecillion
+  Vigintillion: Vigintillion
+  Unvigintillion: Unvigintillion
+  Duovigintillion: Duovigintillion
+  Tresvigintillion: Tresvegintillion
+  Quattuorvigintillion: Quattuorvigintillion
+  Quinquavigintillion: Quinquavigintillion
+  Sesvigintillion: Sesvigintillion
+  Septemvigintillion: Septemvigintillion
+  Octovigintillion: Octovigintillion
+  Novemvigintillion: Novemvigintillion
+  Trigintillion: Trigintillion
+  Untrigintillion: Untrigintillion
+  Duotrigintillion: Duotrigintillion
+  Trestrigintillion: Trestrigintillion
+  Quattuortrigintillion: Quattuortrigintillion
+  Quinquatrigintillion: Quinquatrigintillion
+  Sestrigintillion: Sestrigintillion
+  Octotrigintillion: Octotrigintillion
+  Noventrigintillion: Noventrigintillion
+  Quadragintillion: Quadragintillion

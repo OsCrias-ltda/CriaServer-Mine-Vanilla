@@ -1,0 +1,52 @@
+Main:
+
+  # Should egg recipes be enabled.
+  Use Catcher Recipe: true
+
+  # Should players attempting to tame another players tamed entity
+  # be rejected?
+  Reject Tamed Entities That Are Not Yours: true
+
+  # Should dispensers still spawn caught mobs even though it's in a blocked spawning world?
+  Block Dispenser In Blocked Spawning Worlds: false
+
+  # Which worlds should players not be allowed to catch mobs?
+  Blocked Catching Worlds:
+  - world_nether
+
+  # Which worlds should players not be able to spawn caught mobs?
+  Blocked Spawning Worlds:
+  - world_nether
+
+  # Should we add the recipes to the recipe book available in 1.12 and above?
+  # Note: This option won't do anything in servers below 1.14.
+  Use Recipe Book: false
+
+  # Which economy plugin should be used?
+  # Supported plugins you have installed: "".
+  Economy: Vault
+
+System:
+
+  # The enabled language file.
+  # More language files (if available) can be found in the plugins data folder.
+  Language Mode: en_US
+
+Lore Formats:
+  Catcher:
+
+    # Configure the order of lines in the catcher lore.
+    # Placeholders will get replaced with lines from the language file.
+    Lore:
+    - '%chance%'
+    - '%cost%'
+  Catcher Caught:
+
+    # Configure the order of lines in a spawn egg.
+    # Placeholders will get replaced with lines from the language file.
+    Lore:
+    - '%type%'
+    - '%age%'
+    - '%health%'
+    - '%tamed%'
+    - '%trusted%'

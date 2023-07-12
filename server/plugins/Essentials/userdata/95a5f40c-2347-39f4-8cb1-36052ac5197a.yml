@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.75.51.158
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689114671718
+  login: 1689113863354
+money: '1401.0'
+last-account-name: rayh
+logoutlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: -5.125606869470435
+  y: 88.0
+  z: -158.86273196104892
+  yaw: -123.6146240234375
+  pitch: 6.899530410766602
