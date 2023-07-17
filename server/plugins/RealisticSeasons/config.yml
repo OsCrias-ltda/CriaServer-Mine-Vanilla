@@ -1,10 +1,29 @@
-version: 9.1.12
+remove-ice-in-unloaded-chunks: true
+affect-crop-growth-summer: true
+affect-crop-growth-winter: true
+optimized-custom-biomes: true
+unloaded-chunks-check-delay: 80
+no-snow-on-leaves-for-terra: true
+snow-and-ice-removal: true
+default-season: NONE
+falling-leaf-item: KELP
+falling-leaf-custommodeldata: 0
+sub-seasons:
+  enabled: true
+  foliage-color-adjustments:
+    WINTER-SPRING: NONE
+    SPRING-SUMMER: '#32CD32,WEIGHT:0.3'
+    SUMMER-FALL: NONE
+    FALL-WINTER: NONE
+temperature-modify-command:
+  min: -999999
+  max: 999999
+version: 10.5.8
 modify-blocks: true
 modify-daynight-length: true
 modify-weather-cycle: true
 modify-biome-on-client: true
 dynmap-pause-renders-in-winter: false
-affect-crop-growth: true
 delay-per-operation: 4
 automatic-season-cycling: true
 send-message-on-season-cycle: true

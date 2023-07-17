@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 177.75.51.158
+ip-address: 177.75.58.75
 afk: false
 socialspy: false
 npc: false
@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1689559616959
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1689114671718
-  login: 1689113863354
-money: '1401.0'
+  logout: 1689554364430
+  login: 1689554376770
+money: '13060.84999999999149880'
 last-account-name: rayh
 logoutlocation:
   world: 0a77417c-792d-4e49-bd7e-b1284b90b622
   world-name: world
-  x: -5.125606869470435
-  y: 88.0
-  z: -158.86273196104892
-  yaw: -123.6146240234375
-  pitch: 6.899530410766602
+  x: -905.7989350791053
+  y: 63.0
+  z: -696.0312380844493
+  yaw: -81.700927734375
+  pitch: 16.50031280517578
+lastlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: -53.52222767335205
+  y: 72.0
+  z: -363.412311498531
+  yaw: 172.9497528076172
+  pitch: 19.64999008178711
