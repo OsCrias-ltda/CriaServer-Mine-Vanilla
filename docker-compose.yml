@@ -1,0 +1,28 @@
+version: "3.7"
+services:
+  server:
+    image: imrayh/server-vanila
+    container_name: server
+    volumes:
+      - ./server/:/server
+    ports:
+      - '25565:25565'
+    networks:
+      - default
+
+  nginx:
+    image: nginx
+    container_name: server-nginx
+    volumes:
+      - ./nginx:/etc/nginx/conf.d/
+    environment:
+      - VIRTUAL_HOST=map.xandyy.dev
+      - VIRTUAL_PORT=45455
+      - LETSENCRYPT_HOST=map.xandyy.dev
+    networks:
+      - nginx
+      - default
+
+networks:
+  nginx:
+    external: true

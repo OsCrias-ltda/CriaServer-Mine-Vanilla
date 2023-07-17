@@ -1,0 +1,15 @@
+.idea
+server/plugins/DiscordSRV/config.yml
+server/**/*.db
+server/plugins/*.db
+server/plugins/**/*.log
+server/**/*.dat
+server/**/*.png
+server/**/*.gz
+server/**/*.repositories
+server/**/*.mca
+server/**/*.sha1
+server/**/*.pom
+server/**/*.dat_old
+server/**/*.lock
+server/backups
