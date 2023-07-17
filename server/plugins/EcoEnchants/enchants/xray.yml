@@ -9,7 +9,7 @@ targets:
   - pickaxe
 conflicts: [ ]
 rarity: special
-max-level: 3
+max-level: 5
 
 tradeable: true
 discoverable: true
@@ -20,7 +20,7 @@ effects:
       - id: glow_nearby_blocks
         args:
           radius: "8 + 2 * %level%"
-          duration: "20 * (%level% + 1)"
+          duration: "10 * (%level% + 1) - 10"
           colors:
             coal_ore: black
             deepslate_coal_ore: black
@@ -47,7 +47,7 @@ effects:
           volume: 1
 
     args:
-      cooldown: 90
+      cooldown: 60
       send_cooldown_message: true
     triggers:
       - alt_click
