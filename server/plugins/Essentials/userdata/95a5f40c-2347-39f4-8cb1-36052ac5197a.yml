@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1689592419073
-  login: 1689591925411
-money: '22477.65000000019440180'
+  logout: 1689594895853
+  login: 1689594898283
+money: '22646.15000000019440180'
 last-account-name: rayh
 logoutlocation:
   world: 0a77417c-792d-4e49-bd7e-b1284b90b622
   world-name: world
-  x: -56.767499732621985
-  y: 72.0
-  z: -361.7282786198378
-  yaw: -127.5013427734375
-  pitch: 15.000032424926758
+  x: -57.74851447318965
+  y: 72.5625
+  z: -360.2073205085072
+  yaw: -14.249710083007812
+  pitch: 25.20013427734375
 lastlocation:
   world: 0a77417c-792d-4e49-bd7e-b1284b90b622
   world-name: world
