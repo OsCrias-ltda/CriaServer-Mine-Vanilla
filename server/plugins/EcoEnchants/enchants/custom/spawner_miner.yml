@@ -1,0 +1,24 @@
+display-name: "SpawnerMiner"
+description: "Pickup your spawner by mining it. One time usage."
+placeholder: "%level%"
+type: normal
+
+targets:
+  - pickaxe
+grindstoneable: false
+conflicts: [ ]
+rarity: special
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+effects:
+  - id: consume_held_item
+    args:
+      amount: 1
+    triggers:
+      - mine_block
+
+conditions: [ ]
