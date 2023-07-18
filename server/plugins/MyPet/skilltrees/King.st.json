@@ -168,14 +168,11 @@
         }
       }
     },
-    "Thorns": {
+    "Lightning": {
       "Upgrades": {
-        "5": {
-          "Reflection": "+15",
+        "10": {
+          "Damage": "+10",
           "Chance": "+10"
-        },
-        "9": {
-          "Chance": "+8"
         }
       }
     },
@@ -189,21 +186,6 @@
         }
       }
     },
-    "Sprint": {
-      "Upgrades": {
-        "1": {
-          "Active": true
-        }
-      }
-    },
-    "Wither": {
-      "Upgrades": {
-        "1": {
-          "Duration": "+2",
-          "Chance": "+50"
-        }
-      }
-    },
     "Shield": {
       "Upgrades": {
         "10": {
@@ -212,11 +194,29 @@
         }
       }
     },
-    "Lightning": {
+    "Sprint": {
       "Upgrades": {
-        "10": {
-          "Damage": "+10",
+        "1": {
+          "Active": true
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "5": {
+          "Reflection": "+15",
           "Chance": "+10"
+        },
+        "9": {
+          "Chance": "+8"
+        }
+      }
+    },
+    "Wither": {
+      "Upgrades": {
+        "1": {
+          "Duration": "+2",
+          "Chance": "+50"
         }
       }
     }

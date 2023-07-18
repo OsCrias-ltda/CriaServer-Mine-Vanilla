@@ -152,13 +152,6 @@
         }
       }
     },
-    "Sprint": {
-      "Upgrades": {
-        "4": {
-          "Active": true
-        }
-      }
-    },
     "Slow": {
       "Upgrades": {
         "5": {
@@ -170,6 +163,13 @@
         },
         "%20>5<100": {
           "Duration": "+1"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "4": {
+          "Active": true
         }
       }
     }

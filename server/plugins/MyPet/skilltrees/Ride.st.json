@@ -86,6 +86,21 @@
         }
       }
     },
+    "Heal": {
+      "Upgrades": {
+        "%10>2<100": {
+          "Health": "+2",
+          "Timer": "+1"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%10>5<100": {
+          "Health": "+2"
+        }
+      }
+    },
     "Pickup": {
       "Upgrades": {
         "4": {
@@ -152,21 +167,6 @@
         "9": {
           "Reflection": "+20",
           "Chance": "+50"
-        }
-      }
-    },
-    "Heal": {
-      "Upgrades": {
-        "%10>2<100": {
-          "Health": "+2",
-          "Timer": "+1"
-        }
-      }
-    },
-    "Life": {
-      "Upgrades": {
-        "%10>5<100": {
-          "Health": "+2"
         }
       }
     }
