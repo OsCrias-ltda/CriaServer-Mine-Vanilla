@@ -57,7 +57,7 @@ armor-right-click:
   # tweakin.shulkerboxclick: permission to allow opening of shulker box
   # tweakin.enderchestclick: permission to allow opening of enderchest
 shulker-box-preview:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # if set to true players will able to open the enderchest just like shulker-box
@@ -132,7 +132,7 @@ reach-around:
 
 # Leaves decay much faster when no logs are nearby, or when the leaves are not player placed  
 fast-leaf-decay:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # maximum duration leaves will stay (in seconds)
@@ -449,7 +449,7 @@ better-sign-edit:
 # Permission:
   # tweakin.hoeharvesting.use: permission to use this tweak
 hoe-harvesting:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # range at which area will be cleared. 
@@ -568,7 +568,7 @@ better-grindstone:
 # Permission:
   # tweakin.armoredelytra.craft: permission to combine elytra and chestplate in anvil  
 armored-elytra:
-  enabled: false
+  enabled: true
   check-permissions: false
   # the experience cost
   cost: 10

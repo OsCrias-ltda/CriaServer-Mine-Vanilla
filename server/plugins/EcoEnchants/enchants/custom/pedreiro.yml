@@ -1,0 +1,35 @@
+display-name: "Pedreiro"
+description: "Ao minerar pedras especiais é minerado &a%placeholder% blocos de uma só vez"
+placeholder: "4 * %level%"
+type: normal
+
+targets:
+  - pickaxe
+conflicts: [ ]
+rarity: rare
+max-level: 6
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: mine_vein
+    args:
+      limit: "4 * %level%"
+    filters:
+      blocks:
+        - andesite
+        - diorite
+        - granite
+        - sandstone
+        - prismarine
+        - prismarine_bricks
+        - dark_prismarine
+        - calcite
+        - amethyst_block
+        - blackstone
+    triggers:
+      - mine_block
+
+conditions: [ ]

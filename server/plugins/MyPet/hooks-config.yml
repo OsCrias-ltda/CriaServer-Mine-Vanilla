@@ -11,3 +11,5 @@ Lands:
 Vault:
   Enabled: true
   Economy: true
+PlaceholderAPI:
+  Enabled: true
