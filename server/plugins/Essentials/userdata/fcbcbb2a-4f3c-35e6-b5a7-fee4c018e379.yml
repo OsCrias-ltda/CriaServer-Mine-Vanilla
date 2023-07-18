@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.75.58.84
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689360803829
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689691773926
+  login: 1689691167120
+money: '0'
+last-account-name: Lulis
+logoutlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: 192.06598585509445
+  y: 68.0
+  z: -135.79630353928567
+  yaw: -133.6550750732422
+  pitch: 24.74997901916504
+lastlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: 0.8566174558169818
+  y: 84.11385579825166
+  z: -16.122003029940696
+  yaw: 38.25054931640625
+  pitch: -23.850000381469727

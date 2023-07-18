@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.75.59.220
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689691735491
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689693198016
+  login: 1689693164069
+money: '4522.8500000000049282'
+last-account-name: zander404
+logoutlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: -59.62519708913319
+  y: 72.0
+  z: -360.9393620861316
+  yaw: -87.89830017089844
+  pitch: -5.2500762939453125
+lastlocation:
+  world: 0a77417c-792d-4e49-bd7e-b1284b90b622
+  world-name: world
+  x: -899.2078389242057
+  y: 146.0
+  z: -693.599222791334
+  yaw: 108.49610900878906
+  pitch: 40.049964904785156

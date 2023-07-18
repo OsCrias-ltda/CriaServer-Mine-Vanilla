@@ -1,0 +1,76 @@
+worlds:
+  world: WINTER
+dates:
+  world:
+    day: 1
+    month: 2
+    year: 2
+players:
+  colorsdisabled: []
+  tempdisabled: []
+  particlesdisabled: []
+  knownplayers:
+  - 95a5f40c-2347-39f4-8cb1-36052ac5197a
+  - 0ad7981c-46f9-3262-a93b-e1fa9058230c
+  - c12f307b-febf-3192-96a0-e9077243c8b9
+  - fcbcbb2a-4f3c-35e6-b5a7-fee4c018e379
+  - 7f3b7298-46f4-35f8-b09e-3bd600fdc2ad
+  - 9dadb59b-55bf-3154-8091-8a3618c2df90
+  - 66d408fb-3861-3d6b-ad06-ec8edf3f7fb7
+  - a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3
+  - 7ddd49e7-740f-320e-8e61-0421302c33bb
+  fahrenheit-mode: []
+temperature:
+  world: true
+time-paused: []
+placedblocks:
+  world:
+  - -99,110,11,world
+  - -37,71,-405,world
+  - -37,71,-406,world
+  - -37,71,-407,world
+  - -37,71,-408,world
+  - -37,71,-409,world
+  - -37,71,-410,world
+  - -37,71,-411,world
+  - -37,71,-412,world
+  - -176,96,183,world
+  - -176,96,182,world
+  - -250,102,167,world
+  - -250,102,166,world
+  - -147,104,183,world
+  - -133,97,318,world
+  - -132,97,318,world
+  - -206,88,362,world
+  - -206,88,363,world
+  - -207,89,363,world
+  - -208,90,362,world
+  - -207,89,362,world
+  - -206,89,361,world
+  - -206,89,360,world
+  - -224,94,274,world
+  - -224,94,273,world
+  - -223,94,271,world
+  - -167,100,206,world
+  - -168,100,208,world
+  - -169,100,211,world
+  - -171,97,189,world
+  - 312,112,838,world
+  - 311,112,838,world
+  - 310,112,838,world
+  - 70,93,-210,world
+  - 69,93,-209,world
+  - 68,93,-208,world
+  - 103,63,-59,world
+  - 103,63,-58,world
+  - 104,63,-56,world
+  - -1406,126,825,world
+  - -1405,126,825,world
+  - -1407,127,825,world
+  - -1766,118,933,world
+  - -1766,118,932,world
+  - -1767,118,932,world
+  - -1766,117,930,world
+  - 237,68,-510,world
+  - -42,72,-400,world
+  - -44,72,-396,world

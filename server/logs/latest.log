@@ -1,0 +1,651 @@
+[15:06:49] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:06:51] [ServerMain/INFO]: Loaded 7 recipes
+[15:06:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:06:51] [Server thread/WARN]: ****************************
+[15:06:51] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[15:06:51] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[15:06:51] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[15:06:51] [Server thread/WARN]: ****************************
+[15:06:51] [Server thread/INFO]: Loading properties
+[15:06:51] [Server thread/INFO]: This server is running Paper version git-Paper-69 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 6b325cd)
+[15:06:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:06:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:06:51] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[15:06:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:06:52] [Server thread/INFO]: Default game type: SURVIVAL
+[15:06:52] [Server thread/INFO]: Generating keypair
+[15:06:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:06:52] [Server thread/INFO]: Using epoll channel type
+[15:06:52] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[15:06:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux aarch64) cipher from Velocity.
+[15:06:53] [Server thread/INFO]: [eco] Initializing eco
+[15:06:53] [Server thread/INFO]: [EcoEnchants] Initializing EcoEnchants
+[15:06:53] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:06:57] [Server thread/WARN]: Legacy plugin MobCatcher v3.31 does not specify an api-version.
+[15:06:57] [Server thread/INFO]: [Talismans] Initializing Talismans
+[15:07:00] [Server thread/INFO]: [EcoItems] Initializing EcoItems
+[15:07:02] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loading 2 libraries... please wait
+[15:07:02] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /server/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[15:07:02] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /server/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[15:07:02] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /server/libraries/it/unimi/dsi/fastutil/8.5.11/fastutil-8.5.11.jar
+[15:07:03] [Server thread/INFO]: [EcoJobs] Initializing EcoJobs
+[15:07:05] [Server thread/WARN]: Legacy plugin MyPetGUI v1.05 does not specify an api-version.
+[15:07:05] [Server thread/INFO]: [EcoArmor] Initializing EcoArmor
+[15:07:08] [Server thread/INFO]: [EcoSkills] Initializing EcoSkills
+[15:07:10] [Server thread/WARN]: Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+[15:07:11] [Server thread/INFO]: [StatTrackers] Initializing StatTrackers
+[15:07:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.40
+[15:07:13] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:07:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[15:07:13] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+[15:07:15] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.3
+[15:07:15] [Server thread/INFO]: [eco] Loading server plugin eco v6.65.1
+[15:07:15] [Server thread/INFO]: [squaremap] Loading server plugin squaremap v1.1.14
+[15:07:15] [Server thread/INFO]: [Core] Loading server plugin Core v0.5.9
+[15:07:15] [Server thread/INFO]: [Core] Checking update for Core v0.5.9
+[15:07:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
+[15:07:15] [Server thread/INFO]: [MyPet] Loading server plugin MyPet v3.12
+[15:07:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Error-Reporter ENABLED
+[15:07:15] [Server thread/INFO]: [EcoEnchants] Loading server plugin EcoEnchants v10.22.0
+[15:07:15] [Server thread/INFO]: [libreforge] Initializing libreforge
+[15:07:15] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.22.0
+[15:07:16] [Server thread/INFO]: [Lands] Loading server plugin Lands v6.32.6
+[15:07:16] [Server thread/INFO]: [PlayerStats] Loading server plugin PlayerStats v2.0
+[15:07:16] [Server thread/INFO]: [Bank] Loading server plugin Bank v4.6.3-RELEASE
+[15:07:16] [Server thread/INFO]: [Core] Checking update for Bank v4.6.3-RELEASE
+[15:07:16] [Server thread/INFO]: [Core] Attempting to load default ItemUtils
+[15:07:17] [Server thread/INFO]: [Core] Loaded default, enjoy :)
+[15:07:17] [Server thread/INFO]: [Bank] Block loaded
+[15:07:17] [Server thread/INFO]: [Bank] Sign loaded
+[15:07:17] [Server thread/INFO]: [Bank] Headdb loaded
+[15:07:17] [Server thread/INFO]: [Bank] Bank loaded
+[15:07:17] [Server thread/INFO]: [TradeSystem] Loading server plugin TradeSystem v2.3.2
+[15:07:17] [Server thread/INFO]: [MobCatcher] Loading server plugin MobCatcher v3.31
+[15:07:17] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.21.0
+[15:07:17] [Server thread/INFO]: [EcoItems] Loading server plugin EcoItems v5.7.0
+[15:07:17] [Server thread/INFO]: [DeathChestPro] Loading server plugin DeathChestPro v4.0.1
+[15:07:17] [Server thread/INFO]: [LumberJack] Loading server plugin LumberJack v5.3.0
+[15:07:17] [Server thread/INFO]: [NexEngine] Loading server plugin NexEngine v2.2.11 build-11/07/2023
+[15:07:17] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.3-SNAPSHOT
+[15:07:17] [Server thread/INFO]: [EcoJobs] Loading server plugin EcoJobs v3.21.0
+[15:07:17] [Server thread/INFO]: [MyPetGUI] Loading server plugin MyPetGUI v1.05
+[15:07:17] [Server thread/INFO]: [EcoArmor] Loading server plugin EcoArmor v8.21.0
+[15:07:17] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.6.1
+[15:07:17] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v10.5.8
+[15:07:17] [Server thread/INFO]: [EcoSkills] Loading server plugin EcoSkills v3.9.0
+[15:07:17] [Server thread/INFO]: [ScoreboardStats] Loading server plugin ScoreboardStats v0.10.6
+[15:07:17] [Server thread/WARN]: [ScoreboardStats] Ignoring attempt to change parent of plugin logger
+[15:07:17] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.1.16
+[15:07:17] [Server thread/INFO]: [Tweakin] Loading server plugin Tweakin v6.0.0
+[15:07:17] [Server thread/INFO]: [StatTrackers] Loading server plugin StatTrackers v5.0.6
+[15:07:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:07:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[15:07:18] [Server thread/INFO]:         __    
+[15:07:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[15:07:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:07:18] [Server thread/INFO]: 
+[15:07:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:07:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:07:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:07:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:07:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1917ms)
+[15:07:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:07:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:07:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:07:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:07:19] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:07:19] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[15:07:19] [Server thread/INFO]: [eco] Enabling eco v6.65.1
+[15:07:19] [Server thread/INFO]: [eco] Loading eco
+[15:07:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: eco [6.65.1]
+[15:07:19] [Server thread/INFO]: [Lands] [Integrations] 3rd party plugin hooking into Lands: eco
+[15:07:19] [Server thread/INFO]: [eco] Loaded integrations: Lands, Essentials, Vault, PlaceholderAPI
+[15:07:19] [Server thread/INFO]: [eco] Scanning for conflicts...
+[15:07:19] [Server thread/INFO]: [eco] No conflicts found!
+[15:07:19] [Server thread/INFO]: [Core] Enabling Core v0.5.9
+[15:07:19] [Server thread/INFO]: [EcoEnchants] Enabling EcoEnchants v10.22.0
+[15:07:19] [Server thread/INFO]: [EcoEnchants] Loading EcoEnchants
+[15:07:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecoenchants [10.22.0]
+[15:07:20] [Server thread/INFO]: [EcoEnchants] Loaded integrations: Essentials
+[15:07:20] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.2.11 build-11/07/2023
+[15:07:20] [Server thread/INFO]: [NexEngine] Seems like we have Paper based fork here...
+[15:07:20] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms permissions
+[15:07:20] [Server thread/INFO]: [NexEngine] Successfully hooked with EssentialsX Economy economy
+[15:07:20] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms chat
+[15:07:20] [Server thread/INFO]: [NexEngine] Plugin loaded in 225 ms!
+[15:07:20] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.16
+[15:07:20] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.58s)
+[15:07:20] [Server thread/INFO]:           __             _       
+[15:07:20] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[15:07:20] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[15:07:20] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[15:07:20] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[15:07:20] [Server thread/INFO]:                   |___/            
+[15:07:20] [Server thread/INFO]:  By: www.nickuc.com - V 10.1.16
+[15:07:20] [Server thread/INFO]: 
+[15:07:21] [Server thread/INFO]: [nLogin] nLogin was loaded in 892ms.
+[15:07:21] [Server thread/INFO]: [StatTrackers] Enabling StatTrackers v5.0.6
+[15:07:21] [Server thread/INFO]: [StatTrackers] Loading StatTrackers
+[15:07:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: stattrackers [5.0.6]
+[15:07:21] [Server thread/INFO]: [StatTrackers] 18 Stats Loaded
+[15:07:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:07:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:07:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:07:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:07:21] [Server thread/INFO]: Preparing level "world"
+[15:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:07:22] [Server thread/INFO]: Time elapsed: 284 ms
+[15:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:07:22] [Server thread/INFO]: Time elapsed: 82 ms
+[15:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:07:22] [Server thread/INFO]: Time elapsed: 54 ms
+[15:07:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[15:07:23] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:07:23] [Server thread/INFO]: [squaremap] Enabling squaremap v1.1.14
+[15:07:24] [Server thread/INFO]: [io.undertow] starting server: Undertow - 2.3.2.Final
+[15:07:24] [Server thread/INFO]: [org.xnio] XNIO version 3.8.8.Final
+[15:07:24] [Server thread/INFO]: [org.xnio.nio] XNIO NIO Implementation Version 3.8.8.Final
+[15:07:25] [Server thread/INFO]: [org.jboss.threads] JBoss Threads version 3.5.0.Final
+[15:07:25] [Server thread/INFO]: [squaremap] Internal webserver running on 0.0.0.0:8080
+[15:07:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[15:07:25] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:07:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:07:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:07:26] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[15:07:26] [Server thread/INFO]: [Essentials] Using locale en
+[15:07:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:07:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:07:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:07:26] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:07:26] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Enabling MyPet v3.12
+[15:07:26] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] No Update available.
+[15:07:26] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Compat mode for v1_20_R1 loaded.
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Exp calculation mode: MyPet
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Loading WorldGroups...
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'world' to 'default'
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'world_nether' to 'default'
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'world_the_end' to 'default'
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Connect to SQLite database...
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] SQLite connection successful.
+[15:07:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mypet [1.0.4]
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] PlaceholderAPI (2.11.3) hook activated.
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] ProtocolLib (5.0.0) hook activated.
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+[15:07:27] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Version 3.12-SNAPSHOT-b1741 ENABLED
+[15:07:27] [Server thread/INFO]: [Lands] Enabling Lands v6.32.6
+[15:07:27] [Server thread/INFO]: [Lands]  _                        _      
+[15:07:27] [Server thread/INFO]: [Lands] | |                      | |     
+[15:07:27] [Server thread/INFO]: [Lands] | |      __ _  _ __    __| | ___ 
+[15:07:27] [Server thread/INFO]: [Lands] | |     / _` || '_ \  / _` |/ __|
+[15:07:27] [Server thread/INFO]: [Lands] | |____| (_| || | | || (_| |\__ \
+[15:07:27] [Server thread/INFO]: [Lands] \_____/ \__,_||_| |_| \__,_||___/
+[15:07:27] [Server thread/INFO]: [Lands] Version: 6.32.6 Previous: 6.32.6
+[15:07:27] [Server thread/INFO]: [Lands] Server: 1.20.x running Paper
+[15:07:27] [Server thread/INFO]: [Lands] Licensed to: 642373
+[15:07:27] [Server thread/INFO]: [Lands] Experiencing issues or having questions? Join our Discord!
+[15:07:27] [Server thread/INFO]: [Lands] Discord: https://discord.gg/B4MAJVk
+[15:07:27] [Server thread/INFO]: [Lands] Wiki: https://github.com/Angeschossen/Lands/wiki
+[15:07:27] [Server thread/INFO]: [Lands]  
+[15:07:27] [Server thread/INFO]: [Lands] Using SQLite.
+[15:07:27] [Server thread/INFO]: [Lands] Setting up tables...
+[15:07:27] [Server thread/INFO]: [Lands] Your SQL DBMS version: 3.42.0 (SQLite) Wiki: https://github.com/Angeschossen/Lands/wiki/Database
+[15:07:27] [Server thread/INFO]: [Lands] Successfully connected to SQL database.
+[15:07:27] [Server thread/INFO]: [Lands] Performing initial data load.
+[15:07:27] [Server thread/INFO]: [Lands] There are currently 1 created land(s).
+[15:07:27] [Server thread/INFO]: [Lands] Initial data load took 92 ms.
+[15:07:28] [Server thread/INFO]: [PlayerStats] Enabling PlayerStats v2.0
+[15:07:28] [pool-32-thread-1/INFO]: [PlayerStats] Loaded 0 excluded players from file (1ms)
+[15:07:28] [pool-32-thread-1/INFO]: [PlayerStats] Loaded 9 offline players (17ms)
+[15:07:28] [Server thread/INFO]: [PlayerStats] Enabled PlayerStats!
+[15:07:28] [Server thread/INFO]: [Bank] Enabling Bank v4.6.3-RELEASE
+[15:07:28] [Server thread/INFO]: [Bank] Bank Enabled
+[15:07:28] [Server thread/INFO]: [TradeSystem] Enabling TradeSystem v2.3.2
+[15:07:28] [Server thread/INFO]:  
+[15:07:28] [Server thread/INFO]: __________________________________________________________
+[15:07:28] [Server thread/INFO]:  
+[15:07:28] [Server thread/INFO]:                        TradeSystem [2.3.2]
+[15:07:28] [Server thread/INFO]:  
+[15:07:28] [Server thread/INFO]: Status:
+[15:07:28] [Server thread/INFO]:  
+[15:07:28] [Server thread/INFO]: MC-Version: 1.20.1 (R0.1-SNAPSHOT, Paper)
+[15:07:28] [Server thread/INFO]:  
+[15:07:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tradesystem [1.2]
+[15:07:28] [Server thread/INFO]:   > Loading sounds
+[15:07:29] [Server thread/INFO]:   > Loading blacklist
+[15:07:29] [Server thread/INFO]:     ...got 3 blocked item(s)
+[15:07:29] [Server thread/INFO]:   > Loading layouts
+[15:07:29] [Server thread/INFO]:     ...got 4 layout(s)
+[15:07:29] [Server thread/INFO]:   > Database logging is disabled
+[15:07:29] [Server thread/INFO]:  
+[15:07:29] [Server thread/INFO]: Finished (424ms)
+[15:07:29] [Server thread/INFO]:  
+[15:07:29] [Server thread/INFO]: __________________________________________________________
+[15:07:29] [Server thread/INFO]:  
+[15:07:29] [Server thread/INFO]: [MobCatcher] Enabling MobCatcher v3.31*
+[15:07:29] [Server thread/INFO]: [MobCatcher] Author: Malikk
+[15:07:29] [Server thread/INFO]: [MobCatcher] Lite Version Only.
+[15:07:29] [Server thread/INFO]: [MobCatcher] To charge items or currency for captures and save data for every mob captured please consider buying the full version of the plugin at https://www.spigotmc.org/resources/mobcatcher.4265/
+[15:07:29] [Server thread/INFO]: [MobCatcher] You are not running the correct version of Craftbukkit for this version of MobCatcher.
+[15:07:29] [Server thread/INFO]: [MobCatcher] MobCatcher v3.31 is intended to be run on CB 1.12.1-R0.1-SNAPSHOT
+[15:07:29] [Server thread/INFO]: [MobCatcher] You are currently running 1.20.1-R0.1-SNAPSHOT
+[15:07:29] [Server thread/INFO]: [MobCatcher] Expect major bugs or failure to enable. Please do not report bugs until you are using compatible versions of CB and MobCatcher.
+[15:07:29] [Server thread/INFO]: [MobCatcher] Loading SimpleConfig
+[15:07:29] [Server thread/WARN]: @EventHandler method me.jordan.mobcatcher.MCCaptureEvent#OnEntityDamage returns non-void type boolean. This is unsupported behavior and will no longer work in a future version of Paper. This should be reported to the developers of MobCatcher v3.31 (Malikk)
+[15:07:29] [Server thread/INFO]: [MobCatcher] Hooked Vault 1.7.3-b131
+[15:07:29] [Server thread/INFO]: [MobCatcher] SignData File is Empty
+[15:07:29] [Server thread/INFO]: [MobCatcher] MobData File is Empty
+[15:07:29] [Server thread/INFO]: [MobCatcher] SpawnerData File is Empty
+[15:07:29] [Server thread/INFO]: [MobCatcher] Starting Plugin Metrics
+[15:07:29] [Server thread/INFO]: [MobCatcher] Enabled
+[15:07:29] [Server thread/INFO]: [Talismans] Enabling Talismans v6.21.0
+[15:07:29] [Server thread/INFO]: [Talismans] Loading Talismans
+[15:07:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: talismans [6.21.0]
+[15:07:29] [Server thread/INFO]: [EcoItems] Enabling EcoItems v5.7.0
+[15:07:29] [Server thread/INFO]: [EcoItems] Loading EcoItems
+[15:07:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecoitems [5.7.0]
+[15:07:29] [Server thread/INFO]: [DeathChestPro] Enabling DeathChestPro v4.0.1
+[15:07:29] [Server thread/INFO]: (Info) DeathChestPro 4.0.1 >> Successfully hooked into Vault !
+[15:07:29] [Server thread/INFO]: (Info) DeathChestPro 4.0.1 >> Successfully hooked into PlaceholderAPI !
+[15:07:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deathchestpro [4.0.1]
+[15:07:29] [Server thread/INFO]: (Info) DeathChestPro 4.0.1 >> This server is using DeathChestPro running on version 4.0.1 by TheRealDrawe
+[15:07:29] [Server thread/INFO]: [LumberJack] Enabling LumberJack v5.3.0
+[15:07:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: lumberjack [5.3.0]
+[15:07:29] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.3-SNAPSHOT
+[15:07:29] [Server thread/INFO]: [EcoJobs] Enabling EcoJobs v3.21.0
+[15:07:29] [Server thread/INFO]: [EcoJobs] Loading EcoJobs
+[15:07:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecojobs [3.21.0]
+[15:07:29] [Server thread/INFO]: [MyPetGUI] Enabling MyPetGUI v1.05*
+[15:07:29] [Server thread/INFO]: [EcoArmor] Enabling EcoArmor v8.21.0
+[15:07:29] [Server thread/INFO]: [EcoArmor] Loading EcoArmor
+[15:07:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecoarmor [8.21.0]
+[15:07:29] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.1
+[15:07:30] [Server thread/INFO]: [Warnig] Config loaded!
+[15:07:30] [Server thread/INFO]: [Warnig] Scheduling a backup to run at 03:30 AM every Tue, Mon, Thu, Wed, Fri, Sat and Sun
+[15:07:30] [Server thread/INFO]: [Warnig] Metrics started
+[15:07:30] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v10.5.8
+[15:07:30] [Server thread/INFO]: [EcoSkills] Enabling EcoSkills v3.9.0
+[15:07:30] [Server thread/INFO]: [EcoSkills] Loading EcoSkills
+[15:07:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecoskills [3.9.0]
+[15:07:30] [Server thread/INFO]: [ScoreboardStats] Enabling ScoreboardStats v0.10.6*
+[15:07:30] [Server thread/WARN]: [ScoreboardStats] Cannot register replacer
+java.lang.NoClassDefFoundError: me/clip/placeholderapi/external/EZPlaceholderHook
+	at com.github.games647.scoreboardstats.variables.defaults.PlaceHolderVariables.getVariablesPrefixes(PlaceHolderVariables.java:28) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.variables.defaults.PlaceHolderVariables.<init>(PlaceHolderVariables.java:43) ~[ScoreboardStats.jar:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.createInstance(ReplaceManager.java:375) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.registerDefault(ReplaceManager.java:303) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.addDefaultReplacers(ReplaceManager.java:359) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.<init>(ReplaceManager.java:86) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.SbManager.<init>(SbManager.java:27) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.scoreboard.bukkit.BukkitScoreboardManager.<init>(BukkitScoreboardManager.java:37) ~[ScoreboardStats.jar:?]
+	at com.github.games647.scoreboardstats.ScoreboardStats.onEnable(ScoreboardStats.java:100) ~[ScoreboardStats.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-69]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-69]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.1.jar:git-Paper-69]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.1.jar:git-Paper-69]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636) ~[paper-1.20.1.jar:git-Paper-69]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435) ~[paper-1.20.1.jar:git-Paper-69]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-69]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-69]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-69]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: me.clip.placeholderapi.external.EZPlaceholderHook
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 26 more
+[15:07:30] [Server thread/INFO]: [ScoreboardStats] Registered replacers: [MyPetVariables, BukkitGlobalVariables, PlayerPingVariable, BungeeCordVariables, GeneralVariables, BukkitVariables, VaultVariables]
+[15:07:30] [Server thread/INFO]: [Tweakin] Enabling Tweakin v6.0.0
+[15:07:30] [Server thread/INFO]: [Tweakin] Running papermc..
+[15:07:30] [Server thread/INFO]: [Tweakin] Lands grief plugin enabled, initializing compat
+[15:07:30] [Server thread/INFO]: [Lands] [Integrations] 3rd party plugin hooking into Lands: Tweakin
+[15:07:30] [Server thread/INFO]: [Lands] Nag author(s) of plugin Tweakin. It uses the deprecated LandsIntegration of Lands: https://github.com/Angeschossen/LandsAPI/wiki/API-Update
+[15:07:30] [Server thread/INFO]: [Tweakin] Running 1.20.1 minecraft version...
+[15:07:30] [Server thread/INFO]: [Tweakin] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:07:30] [Server thread/INFO]: [Tweakin] Loading tweakin...
+[15:07:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[15:07:30] [Server thread/INFO]: [Tweakin] Generating Head Map, this might take a while...
+[15:07:30] [Server thread/INFO]: [Tweakin] Generated 176 mob heads..
+[15:07:30] [Server thread/INFO]: [Tweakin] Using 0,16,0 as color for reach-around, due to other color channels being removed after 1.17
+[15:07:30] [Server thread/INFO]: [Tweakin] Registered 5 tweaks successfully
+[15:07:30] [Server thread/INFO]: [Tweakin] Registering permissions
+[15:07:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[15:07:30] [Server thread/INFO]: [Tweakin] Registered 61 permissions
+[15:07:30] [Server thread/INFO]: [Tweakin] Enabling bstats...
+[15:07:30] [Server thread/INFO]: [Tweakin] Tweakin loaded successfully
+[15:07:30] [Server thread/INFO]: [libreforge] Enabling libreforge v4.22.0
+[15:07:31] [Server thread/INFO]: [libreforge] Loading libreforge
+[15:07:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: libreforge [4.22.0]
+[15:07:31] [Server thread/INFO]: [libreforge] Loaded integrations: Vault
+[15:07:31] [Server thread/INFO]: [libreforge] 
+[15:07:31] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[15:07:31] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[15:07:31] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[15:07:31] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[15:07:31] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[15:07:31] [Server thread/INFO]: [libreforge] 
+[15:07:31] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[15:07:31] [Server thread/INFO]: [libreforge] 
+[15:07:31] [pool-34-thread-1/WARN]: [DiscordSRV] This build of DiscordSRV is ahead of master but behind develop. Update your development build!
+[15:07:31] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:07:31] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[15:07:31] [Server thread/INFO]: Running delayed init tasks
+[15:07:31] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:07:31] [ForkJoinPool.commonPool-worker-1/INFO]: [squaremap] Fetching version information...
+[15:07:31] [Craft Scheduler Thread - 13 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:07:31] [Craft Scheduler Thread - 15 - MobCatcher/INFO]: [Metrics] Connection refused
+[15:07:31] [Craft Scheduler Thread - 17 - DriveBackupV2/INFO]: [Warnig] Checking for updates...
+[15:07:31] [Craft Scheduler Thread - 20 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:07:31] [Craft Scheduler Thread - 20 - Vault/INFO]: [Vault] No new version available
+[15:07:31] [Craft Scheduler Thread - 11 - EcoItems/WARN]: [EcoItems] EcoItems is out of date! (Version 5.7.0)
+[15:07:31] [Craft Scheduler Thread - 11 - EcoItems/WARN]: [EcoItems] The newest version is 5.8.0
+[15:07:31] [Craft Scheduler Thread - 11 - EcoItems/WARN]: [EcoItems] Download the new version!
+[15:07:31] [Craft Scheduler Thread - 5 - EcoEnchants/WARN]: [EcoEnchants] EcoEnchants is out of date! (Version 10.22.0)
+[15:07:31] [Craft Scheduler Thread - 5 - EcoEnchants/WARN]: [EcoEnchants] The newest version is 10.24.0
+[15:07:31] [Craft Scheduler Thread - 5 - EcoEnchants/WARN]: [EcoEnchants] Download the new version!
+[15:07:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: rs [1.0.0]
+[15:07:31] [Craft Scheduler Thread - 14 - EcoJobs/WARN]: [EcoJobs] EcoJobs is out of date! (Version 3.21.0)
+[15:07:31] [Craft Scheduler Thread - 14 - EcoJobs/WARN]: [EcoJobs] The newest version is 3.22.0
+[15:07:31] [Craft Scheduler Thread - 14 - EcoJobs/WARN]: [EcoJobs] Download the new version!
+[15:07:31] [Craft Scheduler Thread - 15 - EcoArmor/WARN]: [EcoArmor] EcoArmor is out of date! (Version 8.21.0)
+[15:07:31] [Craft Scheduler Thread - 15 - EcoArmor/WARN]: [EcoArmor] The newest version is 8.22.0
+[15:07:31] [Craft Scheduler Thread - 15 - EcoArmor/WARN]: [EcoArmor] Download the new version!
+[15:07:31] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 249
+[15:07:31] [Craft Scheduler Thread - 7 - StatTrackers/WARN]: [StatTrackers] StatTrackers is out of date! (Version 5.0.6)
+[15:07:31] [Craft Scheduler Thread - 7 - StatTrackers/WARN]: [StatTrackers] The newest version is 5.1.2
+[15:07:31] [Craft Scheduler Thread - 7 - StatTrackers/WARN]: [StatTrackers] Download the new version!
+[15:07:31] [Craft Scheduler Thread - 13 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.20.0.
+[15:07:31] [Craft Scheduler Thread - 13 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[15:07:31] [Craft Scheduler Thread - 12 - Talismans/WARN]: [Talismans] Talismans is out of date! (Version 6.21.0)
+[15:07:31] [Craft Scheduler Thread - 12 - Talismans/WARN]: [Talismans] The newest version is 6.22.0
+[15:07:31] [Craft Scheduler Thread - 12 - Talismans/WARN]: [Talismans] Download the new version!
+[15:07:31] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated PlaceholderAPI for parsing placeholders from 3rd party plugins in chat messages and GUI menus
+[15:07:31] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated LuckPerms for offline permission lookups.
+[15:07:32] [Craft Scheduler Thread - 18 - EcoSkills/WARN]: [EcoSkills] EcoSkills is out of date! (Version 3.9.0)
+[15:07:32] [Craft Scheduler Thread - 18 - EcoSkills/WARN]: [EcoSkills] The newest version is 3.10.0
+[15:07:32] [Craft Scheduler Thread - 18 - EcoSkills/WARN]: [EcoSkills] Download the new version!
+[15:07:32] [Server thread/INFO]: [LumberJack] You are using the latest version of LumberJack.
+[15:07:32] [Server thread/INFO]: Done (40.990s)! For help, type "help"
+[15:07:32] [Server thread/INFO]: Timings Reset
+[15:07:32] [Server thread/INFO]: [eco] Loaded eco
+[15:07:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[15:07:32] [Server thread/WARN]: [EcoEnchants] 
+[15:07:32] [Server thread/WARN]: [EcoEnchants] Invalid configuration found at Enchantment night_vision:
+[15:07:32] [Server thread/WARN]: [EcoEnchants] (Cause) Argument 'id'
+[15:07:32] [Server thread/WARN]: [EcoEnchants] (Reason) Invalid effect ID specified: night_vision!
+[15:07:32] [Server thread/WARN]: [EcoEnchants] 
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Servidor de Zander(974052383376150568)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:geral(974052384437321739)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:clipes-e-destaques(974052384437321740)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:códigos(1075215711657541662)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Mine do BCC(1129473739214561332)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mine-admin(1129477869714821231)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:log-server(1129475956663394475)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:current-tps-200(1129473743849279600)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:geralzão(1129475240641183835)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:broadcasts(1129490529323864125)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:entra-e-sai(1129475300481306664)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mortes(1129475621915996170)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:misterio(1129476414819807303)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dynmap(1129489572821205093)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:watchdog(1129489669130821672)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:link(1129491582182248588)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:awards(1129491600922382336)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:social(1129496334848753744)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Códigos(1075466270616588398)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:a-maior-de-todas(1126275179522302043)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:geral(1075466271644188766)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:top(1075466853746487357)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ci-cd(1077397645703774268)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dev-ops(1085341932781305936)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:virtual-m(1108903227660976178)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:perguntas-para-trainner(1111784699313008640)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:java(1087457877133893752)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pdm(1110301816194879529)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:adonis-js(1087458354068213832)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:geral(1075467559010324480)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lixo(1075517441452544030)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bons(1075517470208700436)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:extreme-black-xyz-supreme-sigma-alpha(1077397705548120095)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:next(1078681099632377947)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:django(1077644280107127025)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pdi(1097305342540529695)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:fastapi(1110644849964744765)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1083559740795269171)
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:log-server(1129475956663394475)
+[15:07:32] [Server thread/WARN]: [EcoEnchants] 1 enchantments were not loaded because they need EcoBosses to be installed!
+[15:07:32] [Server thread/WARN]: [EcoEnchants] Either download EcoBosses or delete the folder at /plugins/EcoEnchants/enchants/ecobosses to remove this message
+[15:07:32] [Server thread/WARN]: [EcoEnchants] 1 enchantments were not loaded because they need EcoPets to be installed!
+[15:07:32] [Server thread/WARN]: [EcoEnchants] Either download EcoPets or delete the folder at /plugins/EcoEnchants/enchants/ecopets to remove this message
+[15:07:32] [Server thread/INFO]: [EcoEnchants] Loaded EcoEnchants
+[15:07:32] [Server thread/INFO]: [StatTrackers] Loaded StatTrackers
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[15:07:32] [Server thread/INFO]: [Talismans] Loaded Talismans
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[15:07:32] [Server thread/INFO]: [EcoItems] Loaded EcoItems
+[15:07:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling voice module
+[15:07:33] [Server thread/INFO]: [EcoJobs] Loaded EcoJobs
+[15:07:33] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 3 alerts registered
+[15:07:33] [Server thread/INFO]: [EcoArmor] Loaded EcoArmor
+[15:07:33] [Server thread/INFO]: [EcoSkills] Loaded EcoSkills
+[15:07:33] [Server thread/INFO]: [libreforge] Loaded libreforge
+[15:07:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.26.3-SNAPSHOT]
+[15:07:33] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[15:07:34] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated Vault economy into economy system. Name: EssentialsX Economy Banks: true
+[15:07:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: lands [6.32.6]
+[15:07:34] [Server thread/INFO]: [Lands] [Integrations] Successfully registered placeholders at PlaceholderAPI. More info: https://github.com/Angeschossen/Lands/wiki/PlaceholderAPI-Placeholders#placeholders
+[15:07:34] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated squaremap into web-map system.
+[15:07:34] [Server thread/INFO]: [Lands] [Integrations] Successfully loaded LuckPerms contexts. More information: https://github.com/Angeschossen/Lands/wiki/Luckperms-Context
+[15:07:34] [Server thread/INFO]: [Lands] [Economy] Next economic tasks (taxes, upkeep, nations upkeep) execution is in 8 hour(s), 52 minute(s).
+[15:07:36] [ForkJoinPool.commonPool-worker-1/INFO]: [Lands] There is a new version available: 6.32.7
+[15:07:48] [User Authenticator #0/INFO]: UUID of player zander404 is 0ad7981c-46f9-3262-a93b-e1fa9058230c
+[15:07:49] [Server thread/INFO]: [Core] Plugin Bank has an update! Old: v4.6.3-RELEASE, New: v4.6.4-RELEASE
+[15:07:49] [Server thread/INFO]: [Warnig] Enabling automatic backups
+[15:07:49] [Bank - Loader Thread/INFO]: [Bank] Loading 0ad7981c-46f9-3262-a93b-e1fa9058230c
+[15:07:49] [Bank - Loader Thread/INFO]: [Bank] Loaded 0ad7981c-46f9-3262-a93b-e1fa9058230c after 12ms
+[15:07:49] [Server thread/INFO]: zander404[/177.75.59.220:44258] logged in with entity id 250 at ([world]-57.236120661705556, 72.38987276148802, -360.52528899447304)
+[15:07:50] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] Your AvatarUrl config option does not contain the {username} placeholder even though this server is using offline UUIDs.
+[15:07:50] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[15:07:50] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] You should set your AvatarUrl (in config.yml) to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[15:07:59] [Craft Scheduler Thread - 16 - nLogin/INFO]: [nLogin] The user zander404 has successfully logged in.
+[15:08:05] [Server thread/INFO]: zander404 issued server command: /pet
+[15:08:23] [Server thread/INFO]: zander404 issued server command: /petshop
+[15:09:31] [Craft Scheduler Thread - 12 - TradeSystem/INFO]: -----< TradeSystem >-----
+[15:09:31] [Craft Scheduler Thread - 12 - TradeSystem/INFO]: New update available [Maintenance update].
+[15:09:31] [Craft Scheduler Thread - 12 - TradeSystem/INFO]: Download it on
+
+https://www.spigotmc.org/resources/58434/update?update=508670
+
+[15:09:31] [Craft Scheduler Thread - 12 - TradeSystem/INFO]: ------------------------
+[15:10:00] [Server thread/INFO]: zander404 issued server command: /ping
+[15:11:05] [Server thread/INFO]: zander404 issued server command: /reload
+[15:11:05] [Server thread/INFO]: zander404: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[15:11:17] [User Authenticator #1/INFO]: UUID of player pedrofff is a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3
+[15:11:17] [Server thread/INFO]: [Core] Plugin Bank has an update! Old: v4.6.3-RELEASE, New: v4.6.4-RELEASE
+[15:11:17] [Bank - Loader Thread/INFO]: [Bank] Loading a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3
+[15:11:17] [Server thread/INFO]: pedrofff[/177.149.132.85:49282] logged in with entity id 983 at ([world]-59.89720239697312, 73.0, -359.5038384332252)
+[15:11:17] [Bank - Loader Thread/INFO]: [Bank] Loaded a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3 after 16ms
+[15:11:24] [Craft Scheduler Thread - 28 - nLogin/INFO]: [nLogin] The user pedrofff has successfully logged in.
+[15:11:32] [Server thread/INFO]: pedrofff issued server command: /petswitch
+[15:11:37] [Server thread/INFO]: zander404 issued server command: /petswitch
+[15:11:41] [Server thread/INFO]: pedrofff issued server command: /petshop
+[15:11:42] [Server thread/INFO]: zander404 issued server command: /petcall
+[15:11:49] [Server thread/INFO]: zander404 issued server command: /petcall
+[15:11:50] [Server thread/INFO]: pedrofff issued server command: /petshop
+[15:11:53] [Netty Epoll Server IO #3/WARN]: [eco] Exception in packet listener com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketWindowItems for packet net.minecraft.network.protocol.game.PacketPlayOutWindowItems!
+[15:11:53] [Netty Epoll Server IO #3/WARN]: com.google.gson.JsonParseException: Don't know how to turn null into a Component
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.notSureHowToDeserialize(ComponentSerializerImpl.java:332)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.deserialize(GsonComponentSerializerImpl.java:88)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.deserialize(GsonComponentSerializerImpl.java:37)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.util.StringUtils.lambda$jsonToComponent$2(StringUtils.java:594)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$13(BoundedLocalCache.java:2550)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2548)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2531)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:110)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.LocalManualCache.get(LocalManualCache.java:62)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.util.StringUtils.jsonToComponent(StringUtils.java:592)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.item.EcoFastItemStack.getLoreComponents(EcoFastItemStack.kt:121)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.item.EcoFastItemStack.getLore(EcoFastItemStack.kt:125)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.core.display.Display.revert(Display.java:141)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.core.display.Display.display(Display.java:69)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketWindowItems.modifyWindowItems(PacketWindowItems.kt:83)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketWindowItems.onSend(PacketWindowItems.kt:49)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.events.EcoEventManagerKt.handleSend(EcoEventManager.kt:24)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.EcoChannelDuplexHandler.write(EcoChannelDuplexHandler.kt:39)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:115)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at TradeSystem_v2.3.2.jar//de.codingair.tradesystem.lib.codingapi.player.data.PacketReader$1.write(PacketReader.java:77)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:115)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at TradeSystem_v2.3.2.jar//de.codingair.tradesystem.lib.codingapi.player.data.PacketReader$1.write(PacketReader.java:77)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at net.minecraft.network.NetworkManager.doSendPacket(NetworkManager.java:476)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at net.minecraft.network.NetworkManager.lambda$sendPacket$11(NetworkManager.java:450)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:48)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[15:11:53] [Netty Epoll Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: [eco] Exception in packet listener com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketWindowItems for packet net.minecraft.network.protocol.game.PacketPlayOutWindowItems!
+[15:11:57] [Netty Epoll Server IO #3/WARN]: com.google.gson.JsonParseException: Don't know how to turn null into a Component
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.notSureHowToDeserialize(ComponentSerializerImpl.java:332)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.deserialize(GsonComponentSerializerImpl.java:88)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.deserialize(GsonComponentSerializerImpl.java:37)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.util.StringUtils.lambda$jsonToComponent$2(StringUtils.java:594)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$13(BoundedLocalCache.java:2550)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2548)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2531)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:110)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.LocalManualCache.get(LocalManualCache.java:62)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.util.StringUtils.jsonToComponent(StringUtils.java:592)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.item.EcoFastItemStack.getLoreComponents(EcoFastItemStack.kt:121)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.item.EcoFastItemStack.getLore(EcoFastItemStack.kt:125)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.core.display.Display.revert(Display.java:141)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.core.display.Display.display(Display.java:69)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketWindowItems.modifyWindowItems(PacketWindowItems.kt:83)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketWindowItems.onSend(PacketWindowItems.kt:49)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.events.EcoEventManagerKt.handleSend(EcoEventManager.kt:24)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.EcoChannelDuplexHandler.write(EcoChannelDuplexHandler.kt:39)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:115)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at TradeSystem_v2.3.2.jar//de.codingair.tradesystem.lib.codingapi.player.data.PacketReader$1.write(PacketReader.java:77)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:115)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at TradeSystem_v2.3.2.jar//de.codingair.tradesystem.lib.codingapi.player.data.PacketReader$1.write(PacketReader.java:77)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.minecraft.network.NetworkManager.doSendPacket(NetworkManager.java:476)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.minecraft.network.NetworkManager.lambda$sendPacket$11(NetworkManager.java:450)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:48)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: [eco] Exception in packet listener com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketSetSlot for packet net.minecraft.network.protocol.game.PacketPlayOutSetSlot!
+[15:11:57] [Netty Epoll Server IO #3/WARN]: com.google.gson.JsonParseException: Don't know how to turn null into a Component
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.notSureHowToDeserialize(ComponentSerializerImpl.java:332)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.deserialize(GsonComponentSerializerImpl.java:88)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.kyori.adventure.text.serializer.gson.GsonComponentSerializerImpl.deserialize(GsonComponentSerializerImpl.java:37)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.util.StringUtils.lambda$jsonToComponent$2(StringUtils.java:594)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$13(BoundedLocalCache.java:2550)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2548)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2531)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:110)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.github.benmanes.caffeine.cache.LocalManualCache.get(LocalManualCache.java:62)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.util.StringUtils.jsonToComponent(StringUtils.java:592)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.item.EcoFastItemStack.getLoreComponents(EcoFastItemStack.kt:121)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.item.EcoFastItemStack.getLore(EcoFastItemStack.kt:125)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.core.display.Display.revert(Display.java:141)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.core.display.Display.display(Display.java:69)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.display.PacketSetSlot.onSend(PacketSetSlot.kt:15)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.events.EcoEventManagerKt.handleSend(EcoEventManager.kt:24)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at eco-6.65.1-all.jar//com.willfp.eco.internal.spigot.proxy.v1_20_R1.common.packet.EcoChannelDuplexHandler.write(EcoChannelDuplexHandler.kt:39)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:115)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at TradeSystem_v2.3.2.jar//de.codingair.tradesystem.lib.codingapi.player.data.PacketReader$1.write(PacketReader.java:77)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:115)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at TradeSystem_v2.3.2.jar//de.codingair.tradesystem.lib.codingapi.player.data.PacketReader$1.write(PacketReader.java:77)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:879)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.minecraft.network.NetworkManager.doSendPacket(NetworkManager.java:476)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at net.minecraft.network.NetworkManager.lambda$sendPacket$11(NetworkManager.java:450)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:48)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[15:11:57] [Netty Epoll Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[15:12:25] [Server thread/INFO]: zander404 lost connection: Disconnected
+[15:12:25] [Bank - Loader Thread/INFO]: [Bank] Saving 0ad7981c-46f9-3262-a93b-e1fa9058230c
+[15:12:25] [Bank - Loader Thread/INFO]: [Bank] Saved 0ad7981c-46f9-3262-a93b-e1fa9058230c after 99ms
+[15:12:43] [User Authenticator #2/INFO]: UUID of player zander404 is 0ad7981c-46f9-3262-a93b-e1fa9058230c
+[15:12:43] [Server thread/INFO]: [Core] Plugin Bank has an update! Old: v4.6.3-RELEASE, New: v4.6.4-RELEASE
+[15:12:44] [Bank - Loader Thread/INFO]: [Bank] Loading 0ad7981c-46f9-3262-a93b-e1fa9058230c
+[15:12:44] [Server thread/INFO]: zander404[/177.75.59.220:43647] logged in with entity id 1233 at ([world]-64.30000001192093, 44.0, -358.9392646341972)
+[15:12:44] [Bank - Loader Thread/INFO]: [Bank] Loaded 0ad7981c-46f9-3262-a93b-e1fa9058230c after 45ms
+[15:12:53] [Craft Scheduler Thread - 13 - nLogin/INFO]: [nLogin] The user zander404 has successfully logged in.
+[15:13:18] [Server thread/INFO]: zander404 lost connection: Disconnected
+[15:13:18] [Bank - Loader Thread/INFO]: [Bank] Saving 0ad7981c-46f9-3262-a93b-e1fa9058230c
+[15:13:18] [Bank - Loader Thread/INFO]: [Bank] Saved 0ad7981c-46f9-3262-a93b-e1fa9058230c after 62ms
+[15:13:19] [Server thread/INFO]: pedrofff lost connection: Disconnected
+[15:13:19] [Bank - Loader Thread/INFO]: [Bank] Saving a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3
+[15:13:19] [Bank - Loader Thread/INFO]: [Bank] Saved a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3 after 76ms
+[15:17:31] [Craft Scheduler Thread - 29 - MobCatcher/INFO]: [Metrics] Connection refused
