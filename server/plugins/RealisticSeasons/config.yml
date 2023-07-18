@@ -27,7 +27,7 @@ dynmap-pause-renders-in-winter: false
 delay-per-operation: 4
 automatic-season-cycling: true
 send-message-on-season-cycle: true
-spawn-ice-in-winter: false
+spawn-ice-in-winter: true
 keep-player-placed-plants: true
 disable-snow-placement-all-snowman: false
 snowman-wear-pumpkin: false

@@ -26,9 +26,6 @@ effects:
         - prismarine
         - prismarine_bricks
         - dark_prismarine
-        - calcite
-        - amethyst_block
-        - blackstone
     triggers:
       - mine_block
 

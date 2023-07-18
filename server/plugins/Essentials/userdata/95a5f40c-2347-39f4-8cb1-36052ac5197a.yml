@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 177.75.58.84
+ip-address: 189.15.171.78
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1689688022843
-  login: 1689687618149
-money: '6988.25000000022024580'
+  logout: 1689709334959
+  login: 1689709181815
+money: '7704.75000000020113480'
 last-account-name: rayh
 logoutlocation:
   world: 0a77417c-792d-4e49-bd7e-b1284b90b622
   world-name: world
-  x: -69.24719946319301
-  y: 71.0
-  z: -344.30000001192093
-  yaw: 151.6471710205078
-  pitch: 25.349946975708008
+  x: -58.99829115000745
+  y: 72.0
+  z: -359.4852571130126
+  yaw: 11.849733352661133
+  pitch: 8.850000381469727
 lastlocation:
   world: 0a77417c-792d-4e49-bd7e-b1284b90b622
   world-name: world
