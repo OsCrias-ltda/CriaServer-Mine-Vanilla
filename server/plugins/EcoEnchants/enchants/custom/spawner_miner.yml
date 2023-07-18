@@ -15,9 +15,14 @@ discoverable: true
 enchantable: false
 
 effects:
-  - id: consume_held_item
+#  - id: consume_held_item
+#    args:
+#      amount: 1
+#    triggers:
+#      - mine_block
+  - id: give_item
     args:
-      amount: 1
+      item: "spawner"
     triggers:
       - mine_block
 
