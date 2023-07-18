@@ -1,7 +1,7 @@
 {
-  "ID": "Combat",
+  "ID": "King",
   "Order": 0,
-  "Name": "Combat",
+  "Name": "King",
   "Icon": {
     "Material": "stone_axe"
   },
@@ -12,7 +12,8 @@
     "- <blue><bold>Knockback"
   ],
   "MobTypes": [
-    "-Turtle"
+    "EnderDragon",
+    "Wither"
   ],
   "Skills": {
     "Backpack": {
@@ -175,6 +176,47 @@
         },
         "9": {
           "Chance": "+8"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "1": {
+          "Active": true,
+          "Speed": "+5",
+          "JumpHeight": "+2",
+          "CanFly": true
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "1": {
+          "Active": true
+        }
+      }
+    },
+    "Wither": {
+      "Upgrades": {
+        "1": {
+          "Duration": "+2",
+          "Chance": "+50"
+        }
+      }
+    },
+    "Shield": {
+      "Upgrades": {
+        "10": {
+          "Redirect": "+100",
+          "Chance": "+20"
+        }
+      }
+    },
+    "Lightning": {
+      "Upgrades": {
+        "10": {
+          "Damage": "+10",
+          "Chance": "+10"
         }
       }
     }

@@ -1,7 +1,7 @@
 {
-  "ID": "Utility",
+  "ID": "Tortuga",
   "Order": 1,
-  "Name": "Utility",
+  "Name": "Tortuga",
   "Icon": {
     "Material": "trapped_chest"
   },
@@ -12,7 +12,7 @@
     "- <red><bold>Poison"
   ],
   "MobTypes": [
-    "*"
+    "Turtle"
   ],
   "Skills": {
     "Backpack": {
@@ -44,7 +44,7 @@
           "Friend": false,
           "Raid": false
         },
-        "50": {
+        "10": {
           "Aggro": true,
           "Duel": true,
           "Farm": true,
@@ -105,6 +105,19 @@
         "4": {
           "Duration": "+3",
           "Chance": "+15"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "1": {
+          "Active": true,
+          "Speed": "+5",
+          "JumpHeight": "+1.25"
+        },
+        "10": {
+          "Speed": "+15",
+          "JumpHeight": "+1"
         }
       }
     }

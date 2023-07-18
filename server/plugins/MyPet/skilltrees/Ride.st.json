@@ -1,5 +1,11 @@
 {
+  "ID": "Ride",
   "Order": 3,
+  "Name": "Ride",
+  "Icon": {
+    "Material": "saddle",
+    "Glowing": true
+  },
   "Description": [
     "- <yellow><bold>Ride",
     "- <red><bold>Ranged Attacks",
@@ -8,25 +14,68 @@
     "- <red><bold>Thorns",
     "- <yellow><bold>Beacon<r> (Speed)"
   ],
+  "MobTypes": [
+    "*"
+  ],
   "Skills": {
-    "Ranged": {
-      "Upgrades": {
-        "2": {
-          "Rate": "+35",
-          "Damage": "+2",
-          "Projectile": "Snowball"
-        }
-      }
-    },
     "Backpack": {
       "Upgrades": {
         "3": {
-          "drop": false,
-          "rows": "+2"
+          "rows": "+2",
+          "drop": false
         },
-        "5": {
-          "drop": false,
+        "10": {
           "rows": "+1"
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "10": {
+          "Range": "+10",
+          "Duration": "+8",
+          "Count": "+1",
+          "Buffs": {
+            "Haste": "+1",
+            "WaterBreathing": true,
+            "Regeneration": "+2"
+          }
+        },
+        "20": {
+          "Count": "+1",
+          "Buffs": {
+            "Haste": "+1",
+            "JumpBoost": "+2"
+          }
+        },
+        "30": {
+          "Buffs": {
+            "Luck": true,
+            "Speed": "+2"
+          }
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "2": {
+          "Aggro": false,
+          "Duel": true,
+          "Farm": false,
+          "Friend": false,
+          "Raid": false
+        },
+        "7": {
+          "Aggro": false,
+          "Duel": true,
+          "Farm": false,
+          "Friend": true,
+          "Raid": false
+        },
+        "100": {
+          "Aggro": true,
+          "Farm": true,
+          "Raid": true
         }
       }
     },
@@ -42,19 +91,59 @@
         "4": {
           "Range": "+1",
           "Exp": false
+        },
+        "50": {
+          "Exp": true
+        },
+        "%10>4<100": {
+          "Range": "+1"
         }
       }
     },
-    "Beacon": {
+    "Ranged": {
       "Upgrades": {
+        "2": {
+          "Damage": "+2",
+          "Rate": "+35",
+          "Projectile": "Snowball"
+        },
         "10": {
-          "Buffs": {
-            "Regeneration": "+2",
-            "WaterBreathing": true
-          },
-          "Duration": "+8",
-          "Count": "+1",
-          "Range": "+10"
+          "Damage": "+2",
+          "Projectile": "Arrow"
+        },
+        "20": {
+          "Damage": "+4",
+          "Projectile": "SmallFireball"
+        },
+        "50": {
+          "Damage": "+2",
+          "Rate": "+50",
+          "Projectile": "LargeFireball"
+        },
+        "70": {
+          "Damage": "+5",
+          "Projectile": "Trident"
+        },
+        "100": {
+          "Damage": "+50",
+          "Projectile": "WitherSkull"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "1": {
+          "Active": true,
+          "Speed": "+5",
+          "JumpHeight": "+1.25",
+          "CanFly": false
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "8": {
+          "Active": true
         }
       }
     },
@@ -66,51 +155,20 @@
         }
       }
     },
-    "Behavior": {
+    "Heal": {
       "Upgrades": {
-        "2": {
-          "Friend": false,
-          "Farm": false,
-          "Duel": true,
-          "Aggro": false,
-          "Raid": false
-        },
-        "7": {
-          "Friend": true,
-          "Farm": false,
-          "Duel": true,
-          "Aggro": false,
-          "Raid": false
+        "%10>2<100": {
+          "Health": "+2",
+          "Timer": "+1"
         }
       }
     },
-    "Sprint": {
+    "Life": {
       "Upgrades": {
-        "8": {
-          "Active": true
-        }
-      }
-    },
-    "Ride": {
-      "Upgrades": {
-        "1": {
-          "Speed": "+5",
-          "Active": true,
-          "JumpHeight": "+1.25"
-        },
-        "10": {
-          "CanFly": true
+        "%10>5<100": {
+          "Health": "+2"
         }
       }
     }
-  },
-  "MobTypes": [
-    "*"
-  ],
-  "ID": "Ride",
-  "Icon": {
-    "Material": "saddle",
-    "Glowing": true
-  },
-  "Name": "Ride"
+  }
 }

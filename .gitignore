@@ -13,3 +13,4 @@ server/**/*.pom
 server/**/*.dat_old
 server/**/*.lock
 server/backups
+server/plugins/MyPet-3.12-SNAPSHOT-B1741.jar

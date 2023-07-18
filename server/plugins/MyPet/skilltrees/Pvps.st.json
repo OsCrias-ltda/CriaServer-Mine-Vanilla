@@ -1,7 +1,7 @@
 {
-  "ID": "Combat",
+  "ID": "Pvps",
   "Order": 0,
-  "Name": "Combat",
+  "Name": "Pvp",
   "Icon": {
     "Material": "stone_axe"
   },
@@ -12,7 +12,7 @@
     "- <blue><bold>Knockback"
   ],
   "MobTypes": [
-    "-Turtle"
+    "*"
   ],
   "Skills": {
     "Backpack": {
@@ -30,8 +30,6 @@
     "Beacon": {
       "Upgrades": {
         "10": {
-          "Range": "+10",
-          "Duration": "+5",
           "Count": "+1",
           "Buffs": {
             "Resistance": "+1",
@@ -49,8 +47,6 @@
         "30": {
           "Buffs": {
             "Absorption": "+1",
-            "FireResistance": true,
-            "NightVision": true,
             "Regeneration": "+1"
           }
         },
@@ -67,22 +63,18 @@
             "Absorption": "+1",
             "FireResistance": false,
             "Resistance": "+1",
-            "Speed": "+2",
-            "Strength": "+1"
+            "Strength": "+1",
+            "Regeneration": "+1"
           }
         },
         "60": {
           "Buffs": {
-            "FireResistance": true,
-            "Haste": "+1",
-            "JumpBoost": "+1"
+            "FireResistance": true
           }
         },
         "70": {
           "Buffs": {
             "FireResistance": true,
-            "Haste": "+1",
-            "JumpBoost": "+1",
             "NightVision": true
           }
         },
@@ -160,21 +152,24 @@
         }
       }
     },
-    "Knockback": {
+    "Sprint": {
       "Upgrades": {
-        "%10<100": {
-          "Chance": "+5"
+        "4": {
+          "Active": true
         }
       }
     },
-    "Thorns": {
+    "Slow": {
       "Upgrades": {
         "5": {
-          "Reflection": "+15",
-          "Chance": "+10"
+          "Duration": "+2",
+          "Chance": "+5"
         },
-        "9": {
-          "Chance": "+8"
+        "%15>4<100": {
+          "Chance": "+5"
+        },
+        "%20>5<100": {
+          "Duration": "+1"
         }
       }
     }

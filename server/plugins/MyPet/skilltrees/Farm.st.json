@@ -1,97 +1,193 @@
 {
-  "Order": 4,
+  "ID": "Farm",
+  "Order": 0,
+  "Name": "Farm",
+  "Icon": {
+    "Material": "stone_axe"
+  },
   "Description": [
-    "- <red><bold>Melee<r> + <red><bold>Ranged Attack",
-    "- <yellow><bold>Inventory",
+    "- <red><bold>Damage",
+    "- <green><bold>Hp Regeneration",
     "- <red><bold>Thorns",
-    "- <red><bold>Poison",
-    "- <blue><bold>Control"
+    "- <blue><bold>Knockback"
+  ],
+  "MobTypes": [
+    "-Turtle"
   ],
   "Skills": {
-    "Ranged": {
-      "Upgrades": {
-        "7": {
-          "Rate": "+35",
-          "Damage": "+2",
-          "Projectile": "Arrow"
-        }
-      }
-    },
     "Backpack": {
       "Upgrades": {
-        "1": {
-          "drop": false,
-          "rows": "+1"
-        },
-        "5": {
-          "drop": false,
-          "rows": "+1"
-        }
-      }
-    },
-    "Control": {
-      "Upgrades": {
-        "8": {
-          "Active": true
-        }
-      }
-    },
-    "Pickup": {
-      "Upgrades": {
-        "2": {
-          "Range": "+1",
-          "Exp": false
-        },
-        "10": {
-          "Range": "+5",
-          "Exp": false
-        }
-      }
-    },
-    "Thorns": {
-      "Upgrades": {
         "6": {
-          "Reflection": "+10",
-          "Chance": "+20"
+          "rows": "+1",
+          "drop": false
+        },
+        "100,60": {
+          "rows": "+1",
+          "drop": false
         }
       }
     },
-    "Poison": {
+    "Beacon": {
       "Upgrades": {
-        "9": {
-          "Duration": "+2",
-          "Chance": "+20"
+        "10": {
+          "Range": "+10",
+          "Duration": "+3",
+          "Count": "+1",
+          "Buffs": {
+            "Haste": "+1",
+            "WaterBreathing": true,
+            "Regeneration": "+2"
+          }
+        },
+        "20": {
+          "Count": "+1",
+          "Buffs": {
+            "Absorption": "+1",
+            "Haste": "+1",
+            "Luck": true,
+            "NightVision": true,
+            "Resistance": "+1",
+            "Strength": "+1"
+          }
+        },
+        "30": {
+          "Buffs": {
+            "Absorption": "+1",
+            "Resistance": "+1",
+            "Strength": "+1"
+          }
+        },
+        "40": {
+          "Buffs": {
+            "Speed": "+1"
+          }
+        },
+        "50": {
+          "Range": "+5",
+          "Duration": "+5",
+          "Count": "+1",
+          "Buffs": {
+            "Absorption": "+1",
+            "FireResistance": true,
+            "Luck": true,
+            "Resistance": "+1",
+            "Strength": "+1",
+            "Regeneration": "+1"
+          }
+        },
+        "60": {
+          "Buffs": {
+            "FireResistance": true
+          }
+        },
+        "70": {
+          "Buffs": {
+            "FireResistance": true,
+            "NightVision": true
+          }
+        },
+        "80": {
+          "Buffs": {
+            "JumpBoost": "+1",
+            "Luck": true,
+            "NightVision": true,
+            "Resistance": "+1",
+            "Speed": "+1",
+            "Strength": "+1"
+          }
+        },
+        "90": {
+          "Buffs": {
+            "Invisibility": true
+          }
+        },
+        "100": {
+          "Range": "+5",
+          "Duration": "+5",
+          "Count": "+3",
+          "Buffs": {
+            "Absorption": "+1",
+            "Haste": "+1",
+            "JumpBoost": "+1",
+            "Resistance": "+1",
+            "Speed": "+1",
+            "Strength": "+1",
+            "WaterBreathing": true,
+            "Regeneration": "+1"
+          }
         }
       }
     },
     "Behavior": {
       "Upgrades": {
-        "4": {
-          "Friend": true,
-          "Farm": true,
+        "1": {
+          "Aggro": false,
           "Duel": true,
+          "Farm": false,
+          "Friend": false,
+          "Raid": false
+        },
+        "3": {
           "Aggro": true,
+          "Duel": true,
+          "Farm": false,
+          "Friend": true,
+          "Raid": false
+        },
+        "50": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
           "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "7": {
+          "Active": true
         }
       }
     },
     "Damage": {
       "Upgrades": {
-        "3": {
-          "Damage": "+2"
-        },
+        "%5>1<100": {
+          "Damage": "+1.5"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "%5>2<100": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%5>4<100": {
+          "Health": "+2"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "%10<100": {
+          "Chance": "+5"
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
         "5": {
-          "Damage": "+0.5"
+          "Reflection": "+15",
+          "Chance": "+10"
+        },
+        "9": {
+          "Chance": "+8"
         }
       }
     }
-  },
-  "MobTypes": [
-    "*"
-  ],
-  "ID": "Farm",
-  "Icon": {
-    "Material": "writable_book"
-  },
-  "Name": "Farm"
+  }
 }
