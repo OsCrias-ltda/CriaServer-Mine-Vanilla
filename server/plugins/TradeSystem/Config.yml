@@ -5,14 +5,14 @@ TradeSystem:
   #   "tradesystem.trade": Can accept/deny/toggle trade requests
   #   "tradesystem.trade.initiate": Can invite players for trades
   # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
-  Permissions: false
+  Permissions: true
   
   # Both traders have to add an item/money to finish the trade
-  Trade_Both: false
+  Trade_Both: true
   # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
   Input_GUI: ANVIL
   Trade_Distance:
-    enabled: false
+    enabled: true
     distance_in_blocks: 50
   
   # This is highly recommended to be enabled. Otherwise, players can easily scam others. Only disable this setting if you know your users.

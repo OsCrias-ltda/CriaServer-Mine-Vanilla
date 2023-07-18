@@ -3,13 +3,13 @@ debug_messages: false
 expire_groups:
   default:
     permission: deathchestpro.expire.default
-    teleport_cost: 100
+    teleport_cost: 0
     chest_block: CHEST
     unlock_after: -1
-    time: 600
+    time: 60
 allow_break_chests: false
 allow_killer_looting: false
-drop_items_after_expire: true
+drop_items_after_expire: false
 lava_spawning: true
 lava_protection: true
 old_lava_protection: false

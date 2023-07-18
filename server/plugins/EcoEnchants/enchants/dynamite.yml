@@ -1,13 +1,13 @@
 display-name: "Dynamite"
 description: "Mines blocks in a &a%placeholder%x%placeholder%&r area"
-placeholder: "3 + %level% * 4"
+placeholder: "1 + %level% * 4"
 type: spell
 
 targets:
   - pickaxe
 conflicts: []
 rarity: legendary
-max-level: 3
+max-level: 2
 
 tradeable: true
 discoverable: true
@@ -18,11 +18,11 @@ effects:
     - id: create_explosion
       args:
         power: 0
-        amount: "%level% * 2 + 1"
+        amount: "%level% * 2"
 
     - id: mine_radius
       args:
-        radius: "2 * %level% + 1 "
+        radius: "2 * %level%"
         blacklisted_blocks:
           - obsidian
           - barrier

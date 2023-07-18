@@ -1,134 +1,17 @@
 {
-  "ID": "Combat",
   "Order": 0,
-  "Name": "Combat",
-  "Icon": {
-    "Material": "stone_axe"
-  },
   "Description": [
     "- <red><bold>Damage",
     "- <green><bold>Hp Regeneration",
     "- <red><bold>Thorns",
     "- <blue><bold>Knockback"
   ],
-  "MobTypes": [
-    "-Turtle"
-  ],
   "Skills": {
     "Backpack": {
       "Upgrades": {
         "6": {
-          "rows": "+1",
-          "drop": false
-        },
-        "100,60": {
-          "rows": "+1",
-          "drop": false
-        }
-      }
-    },
-    "Beacon": {
-      "Upgrades": {
-        "10": {
-          "Range": "+10",
-          "Duration": "+5",
-          "Count": "+1",
-          "Buffs": {
-            "Resistance": "+1",
-            "Strength": "+1"
-          }
-        },
-        "20": {
-          "Count": "+1",
-          "Buffs": {
-            "Absorption": "+1",
-            "Resistance": "+1",
-            "Strength": "+1"
-          }
-        },
-        "30": {
-          "Buffs": {
-            "Absorption": "+1",
-            "FireResistance": true,
-            "NightVision": true,
-            "Regeneration": "+1"
-          }
-        },
-        "40": {
-          "Buffs": {
-            "Regeneration": "+1"
-          }
-        },
-        "50": {
-          "Range": "+5",
-          "Duration": "+5",
-          "Count": "+1",
-          "Buffs": {
-            "Absorption": "+1",
-            "FireResistance": false,
-            "Resistance": "+1",
-            "Speed": "+2",
-            "Strength": "+1"
-          }
-        },
-        "60": {
-          "Buffs": {
-            "FireResistance": true,
-            "Haste": "+1",
-            "JumpBoost": "+1"
-          }
-        },
-        "70": {
-          "Buffs": {
-            "FireResistance": true,
-            "Haste": "+1",
-            "JumpBoost": "+1",
-            "NightVision": true
-          }
-        },
-        "80": {
-          "Buffs": {
-            "Luck": true,
-            "NightVision": true
-          }
-        },
-        "90": {
-          "Buffs": {
-            "Invisibility": true
-          }
-        },
-        "100": {
-          "Range": "+5",
-          "Duration": "+5",
-          "Count": "+3",
-          "Buffs": {
-            "WaterBreathing": true
-          }
-        }
-      }
-    },
-    "Behavior": {
-      "Upgrades": {
-        "1": {
-          "Aggro": false,
-          "Duel": true,
-          "Farm": false,
-          "Friend": false,
-          "Raid": false
-        },
-        "3": {
-          "Aggro": true,
-          "Duel": true,
-          "Farm": false,
-          "Friend": true,
-          "Raid": false
-        },
-        "50": {
-          "Aggro": true,
-          "Duel": true,
-          "Farm": true,
-          "Friend": true,
-          "Raid": true
+          "drop": false,
+          "rows": "+1"
         }
       }
     },
@@ -139,31 +22,17 @@
         }
       }
     },
-    "Damage": {
-      "Upgrades": {
-        "%5>1<100": {
-          "Damage": "+1.5"
-        }
-      }
-    },
-    "Heal": {
-      "Upgrades": {
-        "%5>2<100": {
-          "Health": "+1"
-        }
-      }
-    },
     "Life": {
       "Upgrades": {
-        "%5>4<100": {
+        "4": {
           "Health": "+2"
         }
       }
     },
     "Knockback": {
       "Upgrades": {
-        "%10<100": {
-          "Chance": "+5"
+        "10": {
+          "Chance": "+15"
         }
       }
     },
@@ -177,6 +46,55 @@
           "Chance": "+8"
         }
       }
+    },
+    "Heal": {
+      "Upgrades": {
+        "2": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "1": {
+          "Friend": false,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": false,
+          "Raid": false
+        },
+        "3": {
+          "Friend": true,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": true,
+          "Raid": false
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1.5"
+        },
+        "3": {
+          "Damage": "+1.5"
+        },
+        "6": {
+          "Damage": "+1.5"
+        },
+        "8": {
+          "Damage": "+1.5"
+        }
+      }
     }
-  }
+  },
+  "MobTypes": [
+    "*"
+  ],
+  "ID": "Combat",
+  "Icon": {
+    "Material": "stone_axe"
+  },
+  "Name": "Combat"
 }

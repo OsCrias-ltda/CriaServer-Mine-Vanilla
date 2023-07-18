@@ -28,8 +28,8 @@ general:
   # NOTE: This setting requires server reload / restart.
   claim-worlds_list:
     - 'world'
-    - 'world_nether'
-    - 'world_the_end'
+    - 'CriaLand_nether'
+    - 'CriaLand_the_end'
 
   # Default: English (en-US) - no download required.
   # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk

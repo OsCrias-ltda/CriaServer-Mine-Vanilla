@@ -17,7 +17,7 @@ enchantable: true
 effects:
   - id: skill_xp_multiplier
     args:
-      multiplier: "1 + 0.1 * %level%"
+      multiplier: "1 + 0.02 * %level%"
       skills:
         - exploration
 

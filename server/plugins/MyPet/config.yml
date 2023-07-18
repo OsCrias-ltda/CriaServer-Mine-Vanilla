@@ -94,7 +94,6 @@ MyPet:
     Filter:
     - whore
     - fuck
-    - puta
     MaxLength: 32
     Tag:
       Show: true

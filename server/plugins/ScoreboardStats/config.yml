@@ -22,9 +22,8 @@ Scoreboard:
     # Title: Type
     '&9Online': '%online%'
     '&9Money': '%money%'
-    '&9Land': '%lands_land_name%'
     # Your can choose your custom score here
-  #adicionar novos campos de tracking aqui estilo yml
+    '&aHello World': 1337
 
 # Let ScoreboardStats track stats (kills, deaths, mobkills, killstreak) You need no plugin for this
 enable-pvpstats: false

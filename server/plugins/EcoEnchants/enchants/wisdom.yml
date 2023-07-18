@@ -14,7 +14,7 @@ targets:
   - trident
 conflicts: [ ]
 rarity: uncommon
-max-level: 10
+max-level: 3
 
 tradeable: true
 discoverable: true
