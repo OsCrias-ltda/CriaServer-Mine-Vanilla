@@ -1,0 +1,224 @@
+{
+  "ID": "King",
+  "Order": 0,
+  "Name": "King",
+  "Icon": {
+    "Material": "stone_axe"
+  },
+  "Description": [
+    "- <red><bold>Damage",
+    "- <green><bold>Hp Regeneration",
+    "- <red><bold>Thorns",
+    "- <blue><bold>Knockback"
+  ],
+  "MobTypes": [
+    "EnderDragon",
+    "Wither"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "6": {
+          "rows": "+1",
+          "drop": false
+        },
+        "100,60": {
+          "rows": "+1",
+          "drop": false
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "10": {
+          "Range": "+10",
+          "Duration": "+5",
+          "Count": "+1",
+          "Buffs": {
+            "Resistance": "+1",
+            "Strength": "+1"
+          }
+        },
+        "20": {
+          "Count": "+1",
+          "Buffs": {
+            "Absorption": "+1",
+            "Resistance": "+1",
+            "Strength": "+1"
+          }
+        },
+        "30": {
+          "Buffs": {
+            "Absorption": "+1",
+            "FireResistance": true,
+            "NightVision": true,
+            "Regeneration": "+1"
+          }
+        },
+        "40": {
+          "Buffs": {
+            "Regeneration": "+1"
+          }
+        },
+        "50": {
+          "Range": "+5",
+          "Duration": "+5",
+          "Count": "+1",
+          "Buffs": {
+            "Absorption": "+1",
+            "FireResistance": false,
+            "Resistance": "+1",
+            "Speed": "+2",
+            "Strength": "+1"
+          }
+        },
+        "60": {
+          "Buffs": {
+            "FireResistance": true,
+            "Haste": "+1",
+            "JumpBoost": "+1"
+          }
+        },
+        "70": {
+          "Buffs": {
+            "FireResistance": true,
+            "Haste": "+1",
+            "JumpBoost": "+1",
+            "NightVision": true
+          }
+        },
+        "80": {
+          "Buffs": {
+            "Luck": true,
+            "NightVision": true
+          }
+        },
+        "90": {
+          "Buffs": {
+            "Invisibility": true
+          }
+        },
+        "100": {
+          "Range": "+5",
+          "Duration": "+5",
+          "Count": "+3",
+          "Buffs": {
+            "WaterBreathing": true
+          }
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "1": {
+          "Aggro": false,
+          "Duel": true,
+          "Farm": false,
+          "Friend": false,
+          "Raid": false
+        },
+        "3": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": false,
+          "Friend": true,
+          "Raid": false
+        },
+        "50": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "7": {
+          "Active": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%5>1<100": {
+          "Damage": "+1.5"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "%5>2<100": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%5>4<100": {
+          "Health": "+2"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "%10<100": {
+          "Chance": "+5"
+        }
+      }
+    },
+    "Lightning": {
+      "Upgrades": {
+        "10": {
+          "Damage": "+10",
+          "Chance": "+10"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "1": {
+          "Active": true,
+          "Speed": "+5",
+          "JumpHeight": "+2",
+          "CanFly": true
+        }
+      }
+    },
+    "Shield": {
+      "Upgrades": {
+        "10": {
+          "Redirect": "+100",
+          "Chance": "+20"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "1": {
+          "Active": true
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "5": {
+          "Reflection": "+15",
+          "Chance": "+10"
+        },
+        "9": {
+          "Chance": "+8"
+        }
+      }
+    },
+    "Wither": {
+      "Upgrades": {
+        "1": {
+          "Duration": "+2",
+          "Chance": "+50"
+        }
+      }
+    }
+  }
+}

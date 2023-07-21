@@ -717,7 +717,7 @@ better-recovery-compass:
 # Permissions:
   # tweakin.anvilrepair.use: permission to use this tweak
 anvil-repair:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # list of valid repairable blocks

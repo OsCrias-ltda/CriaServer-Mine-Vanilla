@@ -6,7 +6,6 @@ if [ $1 = 'setup' ]; then
     sudo docker run -d -v .:/cpy:rw --name server imrayh/server-vanila cp -r /server /cpy
     sudo docker exec server cp -r /server /cpy
     sudo docker stop server && sudo docker rm server
-    sudo chown -R ubuntu:ubuntu server/
 
     # subindo para finalizar!
     sudo docker compose up -d
@@ -28,6 +27,11 @@ elif [ $1 = 'prune' ]; then
     fi
 elif [ $1 = 'start' ]; then
     sudo docker compose up -d
+elif [ $1 = 'backup' ]; then
+  sudo docker compose down
+  sudo docker build -t imrayh/server-vanila .
+  sudo docker push imrayh/server-vanila
+  sudo docker compose up -d
 else
   echo 'nenhum parâmetro oferecido!'
 fi
