@@ -8,3 +8,5 @@ ENTRYPOINT java -Xms4G -Xmx8G -jar ./paper.jar --nogui
 EXPOSE 8080
 # Default server port
 EXPOSE 25565
+# Port to geysermc to badrock players
+EXPOSE 19132

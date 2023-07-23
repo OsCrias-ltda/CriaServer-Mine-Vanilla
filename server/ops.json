@@ -34,5 +34,11 @@
     "name": "Lulis",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7c92e93f-e51a-3aa8-87b6-a5826c9f7f21",
+    "name": "doc400",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
